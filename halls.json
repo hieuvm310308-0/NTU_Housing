@@ -1,0 +1,2743 @@
+[
+    {
+        "name": "Hall 1",
+        "slug": "hall-1",
+        "description": "Built in 1955, Hall of Residence 1 is the very first hall of NTU, and brings back many fond memories of alumni. Hall rooms come with toilets, and the layout of the hall facilitates interactions between residents.",
+        "address": "21 Nanyang Circle, Singapore 639778",
+        "room_amenities_summary": "En-suite Bathroom | Air-con & Non air-con",
+        "bathroom_type": "En-suite",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single En-suite Room (Non Air-con)",
+                "ay25_26_rate": "558",
+                "ay26_27_rate": "602"
+            },
+            {
+                "room_type": "Double En-suite Room (Non Air-con)",
+                "ay25_26_rate": "381",
+                "ay26_27_rate": "412"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Block 12 Level 2 Block 16 Level 1*",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am \u2013 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Blocks 12 - 18,   Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 12 - 18, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 12 - 18, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Blocks 12 - 18, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Block 14 Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Hall 2, Block 1, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Block 16, Level 1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "10.5sqm",
+            "double": "20.14sqm"
+        },
+        "capacity": "500 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 1",
+        "bus_stop": "Hall 2 (CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/accommodations/img_9766-photo-full66ec06b8-f1b2-471e-94d0-234326f36bf9.png?sfvrsn=84e2966f_3",
+            "https://www.ntu.edu.sg/media/images/default-source/accommodations/hall-1259ec96e-e29e-4f58-9c97-0c01f59f5d5a.png?sfvrsn=efb72507_1",
+            "https://www.ntu.edu.sg/media/images/default-source/accommodations/accommodation-thumbnails/257cd65bc-5924-4a30-9177-9551954e9f3a.png?sfvrsn=f65c232c_3"
+        ],
+        "coords": {
+            "lat": 1.3406,
+            "lng": 103.6702
+        },
+        "dist_to_ns": 1376,
+        "dist_to_ss": 1363,
+        "closest_school": "CCEB (Chemistry, Chemical Eng & Biotech)",
+        "closest_school_dist": 1035,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1363,
+            "NBS (Business School)": 1433,
+            "EEE (Electrical & Electronic Eng)": 1263,
+            "MAE (Mechanical & Aerospace Eng)": 1319,
+            "CEE (Civil & Environmental Eng)": 1424,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1035,
+            "SPMS (Physical & Mathematical Sciences)": 1093,
+            "SBS (Biological Sciences)": 1180,
+            "WKWSCI (Communication & Information)": 1042,
+            "ADM (Art, Design & Media)": 1100,
+            "SOH / SSS (Humanities & Social Sciences)": 1520,
+            "NIE (National Institute of Education)": 1123
+        }
+    },
+    {
+        "name": "Hall 2",
+        "slug": "hall-2",
+        "description": "Hall of Residence 2 was built in 1954, and distinguishes itself from the other halls with its unique two-storey architecture.",
+        "address": "41 Students Walk, Singapore 639549",
+        "room_amenities_summary": "En-suite Bathroom | Air-con & Non air-con",
+        "bathroom_type": "En-suite",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single En-suite Room (Non Air-con)",
+                "ay25_26_rate": "558",
+                "ay26_27_rate": "602"
+            },
+            {
+                "room_type": "Double En-suite Room (Non Air-con)",
+                "ay25_26_rate": "381",
+                "ay26_27_rate": "412"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Block 1 Level 2*Block 5 Level 1Block 9 Level 1",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am \u2013 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Blocks 1, 3 \u2013 11, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 1 & 9, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 1, 5 & 9, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 1, Level 2 Blocks 2 \u2013 11, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Block 4, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Hall 2, Block 1, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Block 2, Level 1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "13.86 sqm",
+            "double": "16.86 sqm"
+        },
+        "capacity": "652 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 2",
+        "bus_stop": "Hall 2 (CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-building.png?sfvrsn=3305fc84_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-signage.png?sfvrsn=9b0286e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-1-2-hall-office82f5a038-34dc-49c6-919c-a5fbcbe016c0.png?sfvrsn=d9b4a28e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-single-room.png?sfvrsn=bd21e12a_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-double-room.png?sfvrsn=1243a74_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-reading-room.png?sfvrsn=bca1e1bf_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-pantry.png?sfvrsn=f78f3d27_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-laundry-room.png?sfvrsn=240a579_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-lounge.png?sfvrsn=2317bf32_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-gym.png?sfvrsn=d0fddcb8_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-2-canteen.png?sfvrsn=5fe30560_1"
+        ],
+        "coords": {
+            "lat": 1.3425,
+            "lng": 103.6695
+        },
+        "dist_to_ns": 1352,
+        "dist_to_ss": 1422,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 1025,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1422,
+            "NBS (Business School)": 1501,
+            "EEE (Electrical & Electronic Eng)": 1336,
+            "MAE (Mechanical & Aerospace Eng)": 1301,
+            "CEE (Civil & Environmental Eng)": 1394,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1121,
+            "SPMS (Physical & Mathematical Sciences)": 1172,
+            "SBS (Biological Sciences)": 1225,
+            "WKWSCI (Communication & Information)": 1114,
+            "ADM (Art, Design & Media)": 1124,
+            "SOH / SSS (Humanities & Social Sciences)": 1563,
+            "NIE (National Institute of Education)": 1025
+        }
+    },
+    {
+        "name": "Hall 3",
+        "slug": "hall-3",
+        "description": "Built in 2005, Hall of Residence 3 is conveniently located just a few minutes' walk away from the National Institute of Education and the North Spine Plaza.",
+        "address": "52 Nanyang Walk, Singapore 639928",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "603",
+                "ay26_27_rate": "652"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "447",
+                "ay26_27_rate": "483"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room(*with Printing facilities)": {
+                "location": "Communal Block, Levels 2* & 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 3A, 3B,   3C, 3D & 3E, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 3A, Level 5Blocks 3B, 3C, 3D & 3E, Level 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 3A, Levels 4 & 6Blocks 3B & 3C, Levels 3 & 6Blocks 3D & 3E, Levels 3 & 5",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1 (next to the Gym)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 1 (next to the Gym)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block,   Level 1 (next to Drop-off point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            },
+            "Multi-Purpose Hall": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "9am to 11pm",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "9.68 sqm",
+            "double": "17.18 sqm"
+        },
+        "capacity": "616 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 13 / 16",
+        "bus_stop": "Hall 3 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-16-driveway.png?sfvrsn=9e260549_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-signage.png?sfvrsn=ed1ac112_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-16-hall-office.png?sfvrsn=ceda8d5e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-single-room.png?sfvrsn=4e3de757_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-double-room.png?sfvrsn=e7266961_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-reading-room.png?sfvrsn=437e85a4_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-pantry.png?sfvrsn=72763af_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-laundry-room.png?sfvrsn=ea3cd2b6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-lounge.png?sfvrsn=d1e91159_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-multi-purpose-hall.png?sfvrsn=1b56cb94_1"
+        ],
+        "coords": {
+            "lat": 1.3435,
+            "lng": 103.6858
+        },
+        "dist_to_ns": 678,
+        "dist_to_ss": 401,
+        "closest_school": "SOH / SSS (Humanities & Social Sciences)",
+        "closest_school_dist": 257,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 401,
+            "NBS (Business School)": 343,
+            "EEE (Electrical & Electronic Eng)": 514,
+            "MAE (Mechanical & Aerospace Eng)": 677,
+            "CEE (Civil & Environmental Eng)": 694,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 745,
+            "SPMS (Physical & Mathematical Sciences)": 682,
+            "SBS (Biological Sciences)": 590,
+            "WKWSCI (Communication & Information)": 725,
+            "ADM (Art, Design & Media)": 702,
+            "SOH / SSS (Humanities & Social Sciences)": 257,
+            "NIE (National Institute of Education)": 1173
+        }
+    },
+    {
+        "name": "Hall 4",
+        "slug": "hall-4",
+        "description": "Built in 1989, Hall of Residence 4 was recently refreshed and directly overlooks the newly revamped Yunnan Garden, the botanical dreamland.",
+        "address": "11 Nanyang Circle, Singapore 639779",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "608",
+                "ay26_27_rate": "657"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "458",
+                "ay26_27_rate": "494"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Block 23, Level   3Block 25, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Communal Block, Level 3Block 23, Level 3",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 26, Level 3 (beside Hall Office Block 26, Level 3 (beside 03-506S2)Block 22, Level 4Block 25, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Blocks 22 \u2013 27, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Communal Block, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Block 26, Level 3 (outside Hall Office)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Block 26, Level   3 (outside Hall Office)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Meeting Room": {
+                "location": "Communal Block,   Level 3",
+                "opening_days": "By Booking",
+                "opening_hours": ""
+            },
+            "Function Room": {
+                "location": "Communal Block,   Level 3",
+                "opening_days": "By Booking",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "10 sqm",
+            "double": "21.7 sqm"
+        },
+        "capacity": "495 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 13 / 16",
+        "bus_stop": "Innovation Centre (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-signage.png?sfvrsn=33265c7f_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-5-hall-office.png?sfvrsn=be03cffc_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-single-room.png?sfvrsn=9c8ddf2e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-souble-room.png?sfvrsn=b45dcb07_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-reading-room.png?sfvrsn=c4e28754_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-pantry.png?sfvrsn=abb4a841_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-laundry-room.png?sfvrsn=d5b85404_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-lounge.png?sfvrsn=f282139f_1"
+        ],
+        "coords": {
+            "lat": 1.343,
+            "lng": 103.6845
+        },
+        "dist_to_ns": 605,
+        "dist_to_ss": 248,
+        "closest_school": "SOH / SSS (Humanities & Social Sciences)",
+        "closest_school_dist": 142,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 248,
+            "NBS (Business School)": 188,
+            "EEE (Electrical & Electronic Eng)": 359,
+            "MAE (Mechanical & Aerospace Eng)": 590,
+            "CEE (Civil & Environmental Eng)": 633,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 590,
+            "SPMS (Physical & Mathematical Sciences)": 527,
+            "SBS (Biological Sciences)": 445,
+            "WKWSCI (Communication & Information)": 571,
+            "ADM (Art, Design & Media)": 566,
+            "SOH / SSS (Humanities & Social Sciences)": 142,
+            "NIE (National Institute of Education)": 1079
+        }
+    },
+    {
+        "name": "Hall 5",
+        "slug": "hall-5",
+        "description": "Built in 1989, Hall of Residence 5 recently received a refresh and now features vertical \"green walls\" on its building fa\u00e7ade.",
+        "address": "8 Nanyang Drive, Singapore 637719",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "608",
+                "ay26_27_rate": "657"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "458",
+                "ay26_27_rate": "494"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Level 2",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 28 \u2013 31,   Basement",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 28 & 29, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 28 \u2013 31, Basement",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Blocks 28 \u2013 31, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Communal Block, Level 1 (beside Security Post)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 1 (beside Security Post)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block, Level 1 (beside Security Post)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Conference Room": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "By Booking",
+                "opening_hours": ""
+            },
+            "Multi-Purpose Hall": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "By Booking",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "9 sqm",
+            "double": "17.4 sqm"
+        },
+        "capacity": "500 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 13 / 16",
+        "bus_stop": "Hall 3 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-signage.png?sfvrsn=42c0709d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-building.png?sfvrsn=6c7a61e5_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-4-5-hall-office18908cfb-a80c-4fca-b8d7-7a57c7d7688f.png?sfvrsn=a1545d64_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-single-room.png?sfvrsn=dc7ff62d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-double-room.png?sfvrsn=e6d098d9_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-reading-room.png?sfvrsn=f10c5d59_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-pantry.png?sfvrsn=b07b75da_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-laundry-room.png?sfvrsn=cf9895ac_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-lounge.png?sfvrsn=339e3182_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-5-multi-purpose-hall.png?sfvrsn=4a0cf03f_1"
+        ],
+        "coords": {
+            "lat": 1.3432,
+            "lng": 103.6851
+        },
+        "dist_to_ns": 637,
+        "dist_to_ss": 318,
+        "closest_school": "SOH / SSS (Humanities & Social Sciences)",
+        "closest_school_dist": 189,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 318,
+            "NBS (Business School)": 258,
+            "EEE (Electrical & Electronic Eng)": 429,
+            "MAE (Mechanical & Aerospace Eng)": 629,
+            "CEE (Civil & Environmental Eng)": 660,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 661,
+            "SPMS (Physical & Mathematical Sciences)": 597,
+            "SBS (Biological Sciences)": 511,
+            "WKWSCI (Communication & Information)": 641,
+            "ADM (Art, Design & Media)": 628,
+            "SOH / SSS (Humanities & Social Sciences)": 189,
+            "NIE (National Institute of Education)": 1123
+        }
+    },
+    {
+        "name": "Hall 6",
+        "slug": "hall-6",
+        "description": "Built in 1989, Hall of Residence 6 is set to undergo a refresh starting on 1 June 2025, with renovations expected to take approximately one year. During this period, Hall 6 residents will be temporarily housed at 30 Nanyang Link. From mid-July 2026 onwards, they will return to a newly refreshed Hall of Residence 6.",
+        "address": "30 Nanyang Link, Singapore 637717",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "568",
+                "ay26_27_rate": "-"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "403",
+                "ay26_27_rate": "-"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "-",
+                "ay26_27_rate": "670"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "-",
+                "ay26_27_rate": "498"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Comm Block level 2",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Blocks 36 \u2013 40, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 36 \u2013 40, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 36 \u2013 40, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Communal Block, Level 1 (next to Letter box)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 1 (near Function Hall)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block, Level 1 (near Function Hall)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Function Hall": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "9am to 11pm",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "9sqm",
+            "double": "21.45sqm"
+        },
+        "capacity": "482 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 2",
+        "bus_stop": "Hall 6 (CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/lifeatntu/och/hall-gallery/30nyl_1.png?sfvrsn=102b3509_1",
+            "https://www.ntu.edu.sg/media/images/default-source/lifeatntu/och/hall-gallery/hall6_1.png?sfvrsn=3d9b6af4_1",
+            "https://www.ntu.edu.sg/media/images/default-source/lifeatntu/och/hall-gallery/hall6_2.png?sfvrsn=aa54846_1"
+        ],
+        "coords": {
+            "lat": 1.342,
+            "lng": 103.6698
+        },
+        "dist_to_ns": 1343,
+        "dist_to_ss": 1391,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 1037,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1391,
+            "NBS (Business School)": 1467,
+            "EEE (Electrical & Electronic Eng)": 1300,
+            "MAE (Mechanical & Aerospace Eng)": 1290,
+            "CEE (Civil & Environmental Eng)": 1387,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1081,
+            "SPMS (Physical & Mathematical Sciences)": 1135,
+            "SBS (Biological Sciences)": 1196,
+            "WKWSCI (Communication & Information)": 1078,
+            "ADM (Art, Design & Media)": 1100,
+            "SOH / SSS (Humanities & Social Sciences)": 1536,
+            "NIE (National Institute of Education)": 1037
+        }
+    },
+    {
+        "name": "Hall 7",
+        "slug": "hall-7",
+        "description": "Built in 2017, the Nanyang Crescent Halls (Saraca, Tamarind and Hall of Residence 7) are designed with environmental sustainability in mind and offer a variety of facilities for residents to live, work and play..",
+        "address": "38 Nanyang Crescent, Singapore 636866",
+        "room_amenities_summary": "En-suite Bathroom | Air-con & Non air-con",
+        "bathroom_type": "En-suite",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "590",
+                "ay26_27_rate": "635"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "432",
+                "ay26_27_rate": "466"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "635",
+                "ay26_27_rate": "685"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "475",
+                "ay26_27_rate": "511"
+            },
+            {
+                "room_type": "Single Plus-sized Room (Non Air-con)",
+                "ay25_26_rate": "610",
+                "ay26_27_rate": "660"
+            },
+            {
+                "room_type": "Single Plus-sized Room (Air-con)",
+                "ay25_26_rate": "645",
+                "ay26_27_rate": "695"
+            },
+            {
+                "room_type": "Single En-suite Room (Air-con)",
+                "ay25_26_rate": "785",
+                "ay26_27_rate": "835"
+            },
+            {
+                "room_type": "Single En-suite Room (Non Air-con)",
+                "ay25_26_rate": "705",
+                "ay26_27_rate": "755"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room(*with Printing facilities)": {
+                "location": "Block 25, Level 2, Reading Room 1Block 25, Level 2, Reading Room 2Block 25, Level 2, Reading Room 3*",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Block 25, Levels   3, 5, 7, 9, 11, 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 25, Levels 6, 7, 11, 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 25, Levels 4, 6, 8, 10, 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 25 (outside Lift Lobby)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Block 25, Level 2 (outside Reading Room 1)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Saraca Hall, Block 22, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Saraca Hall, Block 22, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Dance Room": {
+                "location": "Block 25, Level   1, Dance Room 1Block 25, Level 1, Dance Room 2Block 25, Level 1, Dance Room 3",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            },
+            "Multi-Purpose Hall": {
+                "location": "Block 25, Level   1",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            },
+            "BBQ Pit": {
+                "location": "Behind Block 70   (facing Forest)Block 70, Level 2",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            },
+            "Gym": {
+                "location": "Tamarind Hall, Block 23, Level 2",
+                "opening_days": "",
+                "opening_hours": "Refer to Hall"
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "Not specified",
+            "double": "15.6 sqm"
+        },
+        "capacity": "501 beds",
+        "has_lift": "No",
+        "near_canteen": "Tamarind Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-(front).png?sfvrsn=a050fa89_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-(interior).png?sfvrsn=d9c013aa_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-signage.png?sfvrsn=5f606e8b_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-hall-office.png?sfvrsn=33eceb68_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-7-single-room-with-toilet.png?sfvrsn=f801fb66_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-7-single-room.png?sfvrsn=b024acd0_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-reading-room.png?sfvrsn=6c5c44bf_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-7-pantry.png?sfvrsn=e82219c7_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-7-laundry-room.png?sfvrsn=2833a77e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-7-lounge.png?sfvrsn=6f4c933c_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-gym.png?sfvrsn=b51e8628_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-gym-(view-2).png?sfvrsn=2a921d0d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-mph.png?sfvrsn=67a523d0_1"
+        ],
+        "coords": {
+            "lat": 1.3475,
+            "lng": 103.6685
+        },
+        "dist_to_ns": 1368,
+        "dist_to_ss": 1627,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 896,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1627,
+            "NBS (Business School)": 1716,
+            "EEE (Electrical & Electronic Eng)": 1578,
+            "MAE (Mechanical & Aerospace Eng)": 1338,
+            "CEE (Civil & Environmental Eng)": 1389,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1409,
+            "SPMS (Physical & Mathematical Sciences)": 1442,
+            "SBS (Biological Sciences)": 1417,
+            "WKWSCI (Communication & Information)": 1377,
+            "ADM (Art, Design & Media)": 1283,
+            "SOH / SSS (Humanities & Social Sciences)": 1717,
+            "NIE (National Institute of Education)": 896
+        }
+    },
+    {
+        "name": "Hall 8",
+        "slug": "hall-8",
+        "description": "Built in 1994, Hall of Residence 8 is a stone's throw away from the iconic grass-roofed building of the School of Art, Design & Media.",
+        "address": "26 Nanyang Avenue, Singapore 639812",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Levels 2 & 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 41 &   44, Levels 5 & 6Blocks 42 &   43, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 41 \u2013 44, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 41 & 44, Levels 3 & 4Blocks 42 & 43, Levels 2 \u2013 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Communal Block, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            },
+            "Games Room": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "6am to 2am",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "15 sqm",
+            "double": "23 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 11 / 9",
+        "bus_stop": "Hall 8/11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-entrance.png?sfvrsn=33a5e820_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-signage.png?sfvrsn=1eefa88e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-9-hall-office.png?sfvrsn=87e16094_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-single-room.png?sfvrsn=3fbe428c_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-double-room.png?sfvrsn=ed28c750_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-reading-room.png?sfvrsn=4c3d9cf5_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-pantry.png?sfvrsn=6c067514_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-laundry-room.png?sfvrsn=761d9ddd_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-lounge.png?sfvrsn=1d710b8a_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-mph.png?sfvrsn=24626e2b_1"
+        ],
+        "coords": {
+            "lat": 1.3458,
+            "lng": 103.6798
+        },
+        "dist_to_ns": 173,
+        "dist_to_ss": 451,
+        "closest_school": "MAE (Mechanical & Aerospace Eng)",
+        "closest_school_dist": 110,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 451,
+            "NBS (Business School)": 535,
+            "EEE (Electrical & Electronic Eng)": 483,
+            "MAE (Mechanical & Aerospace Eng)": 110,
+            "CEE (Civil & Environmental Eng)": 231,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 512,
+            "SPMS (Physical & Mathematical Sciences)": 478,
+            "SBS (Biological Sciences)": 299,
+            "WKWSCI (Communication & Information)": 446,
+            "ADM (Art, Design & Media)": 202,
+            "SOH / SSS (Humanities & Social Sciences)": 467,
+            "NIE (National Institute of Education)": 474
+        }
+    },
+    {
+        "name": "Hall 9",
+        "slug": "hall-9",
+        "description": "Built in 1994, Hall of Residence 9 was one of the halls that hosted the first Youth Olympic Games (YOG), and offers a variety of interesting Residential Education programmes.",
+        "address": "24 Nanyang Avenue, Singapore 639811",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Level 2",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 45 &   48, Levels 5 & 6Blocks 46 & 47, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 45 \u2013 48, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 45 & 48, Levels 3 & 4Blocks 46 & 47, Levels 2 \u2013 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Communal Block, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Communal Block,   Level 2",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            },
+            "Games Room": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "9am to 2am",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "Food Court 9, Carpark, Shopee Lockers",
+        "room_sizes": {
+            "single": "15 sqm",
+            "double": "23 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 9 / 11",
+        "bus_stop": "Hall 8/11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-entrance.png?sfvrsn=11476c1e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-exterior.png?sfvrsn=9dd36aed_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-signage.png?sfvrsn=1e4b5d81_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-9-hall-office51c293ef-2872-4f78-9310-6e8789556744.png?sfvrsn=17d9699b_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-single-room.png?sfvrsn=cc316c5a_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-double-room.png?sfvrsn=c67442f6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-8-pantry5f11d5f0-01bf-4e98-b092-69e4b9076dad.png?sfvrsn=b41d32fe_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-study-room.png?sfvrsn=84e7035c_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-reading-room.png?sfvrsn=d4b085d3_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-laundry-room.png?sfvrsn=e9b02b14_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-lounge.png?sfvrsn=b0afac9d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-games-room.png?sfvrsn=d802e372_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-9-pool-table.png?sfvrsn=1836e7ba_1"
+        ],
+        "coords": {
+            "lat": 1.3462,
+            "lng": 103.679
+        },
+        "dist_to_ns": 218,
+        "dist_to_ss": 542,
+        "closest_school": "MAE (Mechanical & Aerospace Eng)",
+        "closest_school_dist": 170,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 542,
+            "NBS (Business School)": 628,
+            "EEE (Electrical & Electronic Eng)": 562,
+            "MAE (Mechanical & Aerospace Eng)": 170,
+            "CEE (Civil & Environmental Eng)": 265,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 558,
+            "SPMS (Physical & Mathematical Sciences)": 534,
+            "SBS (Biological Sciences)": 372,
+            "WKWSCI (Communication & Information)": 492,
+            "ADM (Art, Design & Media)": 250,
+            "SOH / SSS (Humanities & Social Sciences)": 566,
+            "NIE (National Institute of Education)": 377
+        }
+    },
+    {
+        "name": "Hall 10",
+        "slug": "hall-10",
+        "description": "Built in 1994 and boasting astrophotography as one of its signature Residential Education activities, Hall of Residence 10 offers a unique experience for stargazing enthusiasts.",
+        "address": "22 Nanyang Avenue Singapore 639810",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Blocks 49 &   52, Levels 5 & 6Blocks 50 & 51, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge(with Ironing facilities)": {
+                "location": "Blocks 49 \u2013 52, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 49 & 52, Levels 3 & 4Blocks 50 & 51, Levels 2 \u2013 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block,   Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Computer Room": {
+                "location": "Communal Block,   Level 3",
+                "opening_days": "Monday \u2013 Saturday(Closed on Sunday and Public Holidays)",
+                "opening_hours": "9am to 12mn"
+            }
+        },
+        "other_amenities_text": "Carpark",
+        "room_sizes": {
+            "single": "12.25 sqm",
+            "double": "18.96 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 11 / 9",
+        "bus_stop": "Hall 8/11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-building.png?sfvrsn=4cf88e0d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-exterior.png?sfvrsn=45c20927_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-signage.png?sfvrsn=1ca95266_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-11-hall-office.png?sfvrsn=136ba0b4_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-single-room.png?sfvrsn=cb8073f_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-single-room-v2.png?sfvrsn=41667e48_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-double-room.png?sfvrsn=d5a8baed_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-reading-room.png?sfvrsn=2d74d536_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-pantry.png?sfvrsn=5440b2e9_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-laundry-room.png?sfvrsn=ee5e6675_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-lounge926323a0-96c9-4bdc-9be4-45c551b60c90.png?sfvrsn=5a31f5a2_1"
+        ],
+        "coords": {
+            "lat": 1.3465,
+            "lng": 103.6785
+        },
+        "dist_to_ns": 261,
+        "dist_to_ss": 605,
+        "closest_school": "MAE (Mechanical & Aerospace Eng)",
+        "closest_school_dist": 222,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 605,
+            "NBS (Business School)": 691,
+            "EEE (Electrical & Electronic Eng)": 619,
+            "MAE (Mechanical & Aerospace Eng)": 222,
+            "CEE (Civil & Environmental Eng)": 299,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 599,
+            "SPMS (Physical & Mathematical Sciences)": 580,
+            "SBS (Biological Sciences)": 429,
+            "WKWSCI (Communication & Information)": 534,
+            "ADM (Art, Design & Media)": 299,
+            "SOH / SSS (Humanities & Social Sciences)": 631,
+            "NIE (National Institute of Education)": 314
+        }
+    },
+    {
+        "name": "Hall 11",
+        "slug": "hall-11",
+        "description": "Built in 1994, Hall of Residence 11 spots building features similar to those of holiday villas and offers some of the most interesting Residential Education programmes.",
+        "address": "20 Nanyang Avenue Singapore 639809",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block L2",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Blocks 53 &   54, Level 2Blocks 55 & 56, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge(with Ironing facilities)": {
+                "location": "Blocks 53 & 54, Level 2Blocks 55 & 56, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 53 & 54, Levels 2 \u2013 4 Blocks 55 & 56,   Levels 1 \u2013 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Common Block, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Common Block, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Common Block, Level   1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            }
+        },
+        "other_amenities_text": "Food Court 11, Carpark",
+        "room_sizes": {
+            "single": "12.25 sqm",
+            "double": "18.96 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Food Court 11 / 9",
+        "bus_stop": "Hall 8/11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-entrance.png?sfvrsn=d35ad125_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-grounds.png?sfvrsn=243a6bd1_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-signage.png?sfvrsn=56995656_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-10-11-hall-office18e08461-7bbc-4741-8ec7-fc70baf03c9a.png?sfvrsn=5f34399_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-single-room.png?sfvrsn=6e3b9940_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-double-room.png?sfvrsn=33368af4_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-reading-room.png?sfvrsn=d4544656_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-pantry.png?sfvrsn=c31a0235_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-laundry-room.png?sfvrsn=212000e1_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-11-lounge.png?sfvrsn=79390695_1"
+        ],
+        "coords": {
+            "lat": 1.3468,
+            "lng": 103.678
+        },
+        "dist_to_ns": 312,
+        "dist_to_ss": 668,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 252,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 668,
+            "NBS (Business School)": 755,
+            "EEE (Electrical & Electronic Eng)": 678,
+            "MAE (Mechanical & Aerospace Eng)": 279,
+            "CEE (Civil & Environmental Eng)": 342,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 644,
+            "SPMS (Physical & Mathematical Sciences)": 629,
+            "SBS (Biological Sciences)": 487,
+            "WKWSCI (Communication & Information)": 580,
+            "ADM (Art, Design & Media)": 353,
+            "SOH / SSS (Humanities & Social Sciences)": 696,
+            "NIE (National Institute of Education)": 252
+        }
+    },
+    {
+        "name": "Hall 12",
+        "slug": "hall-12",
+        "description": "Built in 2000, Halls of Residence 12 and 13 are located along serene, lush green forests with occasional visits by vibrant birds such as kingfishers, woodpeckers, bee-eaters and even hornbills. An open-air Amphitheatre between the two halls also serves as a place for student activities.",
+        "address": "30 Nanyang Crescent Singapore 637659",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Block 57, Level   1 Blocks 58 & 59, Level 2Block 60, Level 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 57, Level 1 Blocks 58 & 59, Level 2Block 60, Level 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 57 & 58, Level 3Block 59, Levels 3 & 5Block 60, Levels 4 \u2013 6",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 2 (behind Function Hall)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Communal Block, Level 2 (behind Function Hall)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Communal Block,   Level 2 (beside Drop-off point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Multi-Purpose Hall": {
+                "location": "Communal Block,   Level 2",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            }
+        },
+        "other_amenities_text": "13 Bites, Carpark",
+        "room_sizes": {
+            "single": "10 sqm",
+            "double": "19.25 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Tamarind Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-13-building.png?sfvrsn=74f168e3_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-building.png?sfvrsn=40253285_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-signage.png?sfvrsn=8bc17260_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-13-hall-office.png?sfvrsn=34101c69_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-single-room.png?sfvrsn=adab20f7_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-double-room.png?sfvrsn=a54197aa_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-reading-room.png?sfvrsn=9539eb4b_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-pantry.png?sfvrsn=3d32685d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-laundry.png?sfvrsn=f6e5c003_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-lounge.png?sfvrsn=d10d9ed_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-creative-garden.png?sfvrsn=1b0f3667_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-13-multi-purpose-hall.png?sfvrsn=2d56b04f_1"
+        ],
+        "coords": {
+            "lat": 1.3465,
+            "lng": 103.6698
+        },
+        "dist_to_ns": 1224,
+        "dist_to_ss": 1455,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 777,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1455,
+            "NBS (Business School)": 1543,
+            "EEE (Electrical & Electronic Eng)": 1401,
+            "MAE (Mechanical & Aerospace Eng)": 1189,
+            "CEE (Civil & Environmental Eng)": 1249,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1228,
+            "SPMS (Physical & Mathematical Sciences)": 1262,
+            "SBS (Biological Sciences)": 1244,
+            "WKWSCI (Communication & Information)": 1198,
+            "ADM (Art, Design & Media)": 1113,
+            "SOH / SSS (Humanities & Social Sciences)": 1552,
+            "NIE (National Institute of Education)": 777
+        }
+    },
+    {
+        "name": "Hall 13",
+        "slug": "hall-13",
+        "description": "Built in 2000, Halls of Residence 12 and 13 are located along serene, lush green forests with occasional visits by vibrant birds such as kingfishers, woodpeckers, bee-eaters and even hornbills. An open-air Amphitheatre between the two halls also serves as a place for student activities.",
+        "address": "32 Nanyang Crescent Singapore 637658",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Block 61, Level   1 Blocks 62 & 63, Level 2Block 64",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 61, Level 1 Blocks 62 & 63, Level 2Block 64, Level 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 61 & 62, Level 3Block 63, Levels 3 & 5Block 64, Levels 4 \u2013 6",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 2 (behind Cafeteria)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Hall 12, Communal Block, Level 2 (behind Function Hall)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Hall 12, Communal Block, Level 2 (beside Drop-off   point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            }
+        },
+        "other_amenities_text": "13 Bites, Carpark, Shopee Lockers",
+        "room_sizes": {
+            "single": "10 sqm",
+            "double": "19.25 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Tamarind Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-signage.png?sfvrsn=7beeb108_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-13-building645442e0-20b4-4562-8d7c-329917c4e39b.png?sfvrsn=132c12ac_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-13-hall-office408458b4-cba7-4c82-a0e8-006345c64503.png?sfvrsn=83620874_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-single-room.png?sfvrsn=376f1644_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-double-room.png?sfvrsn=d6e4d8c0_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-reading-room.png?sfvrsn=a4f8b7b6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-pantry.png?sfvrsn=2d6c0e14_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-laundry-room.png?sfvrsn=41497fc9_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-13-lounge.png?sfvrsn=614134f6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-12-13-multi-purpose-hall718240d4-133c-46dc-bad2-70848acf43f0.png?sfvrsn=4cc77fc2_1"
+        ],
+        "coords": {
+            "lat": 1.3462,
+            "lng": 103.6702
+        },
+        "dist_to_ns": 1181,
+        "dist_to_ss": 1403,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 745,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1403,
+            "NBS (Business School)": 1490,
+            "EEE (Electrical & Electronic Eng)": 1348,
+            "MAE (Mechanical & Aerospace Eng)": 1145,
+            "CEE (Civil & Environmental Eng)": 1209,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1173,
+            "SPMS (Physical & Mathematical Sciences)": 1208,
+            "SBS (Biological Sciences)": 1192,
+            "WKWSCI (Communication & Information)": 1143,
+            "ADM (Art, Design & Media)": 1062,
+            "SOH / SSS (Humanities & Social Sciences)": 1502,
+            "NIE (National Institute of Education)": 745
+        }
+    },
+    {
+        "name": "Hall 14",
+        "slug": "hall-14",
+        "description": "Located right next to the campus running track and beside the serenity of lush green forests, Halls of Residence 14 and 15, which were built in 2001, are a spotting ground for occasional visits by vibrant birds such as kingfishers, woodpeckers, bee-eaters and even hornbills.",
+        "address": "34 Nanyang Crescent Singapore 637634",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block & Block 65A, Level 2 (above Canteen   14)",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(Ironing facilities at Blocks 65 \u2013 68, Level 4 (next to Pantry)": {
+                "location": "Blocks 65 \u2013 68,   Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 65 \u2013 68, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 65 \u2013 68, Levels 3 & 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1 (near Canteen 14)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Outside Canteen 14, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Outside Canteen   14, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Communal Block   & Block 65A, Level 1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "Food Court 14, Carpark",
+        "room_sizes": {
+            "single": "10.5 sqm",
+            "double": "19.25 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Tamarind Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-signage.png?sfvrsn=d36a42f4_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-building.png?sfvrsn=936affed_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-15-hall-office.png?sfvrsn=f8b3aaa2_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-single-room.png?sfvrsn=756d9832_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-double-room.png?sfvrsn=a9849a00_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-pantry.png?sfvrsn=da8d6962_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-laundry-room.png?sfvrsn=97ec704f_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-lounge.png?sfvrsn=da76a4dd_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-15-multi-purpose-hall.png?sfvrsn=84c9bec8_1"
+        ],
+        "coords": {
+            "lat": 1.3468,
+            "lng": 103.669
+        },
+        "dist_to_ns": 1311,
+        "dist_to_ss": 1550,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 854,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1550,
+            "NBS (Business School)": 1638,
+            "EEE (Electrical & Electronic Eng)": 1496,
+            "MAE (Mechanical & Aerospace Eng)": 1278,
+            "CEE (Civil & Environmental Eng)": 1336,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1322,
+            "SPMS (Physical & Mathematical Sciences)": 1357,
+            "SBS (Biological Sciences)": 1339,
+            "WKWSCI (Communication & Information)": 1292,
+            "ADM (Art, Design & Media)": 1208,
+            "SOH / SSS (Humanities & Social Sciences)": 1646,
+            "NIE (National Institute of Education)": 854
+        }
+    },
+    {
+        "name": "Hall 15",
+        "slug": "hall-15",
+        "description": "Located right next to the campus running track and beside the serenity of lush green forests, Halls of Residence 14 and 15, which were built in 2001, are a spotting ground for occasional visits by vibrant birds such as kingfishers, woodpeckers, bee-eaters and even hornbills.",
+        "address": "36 Nanyang Crescent Singapore 637635",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "593",
+                "ay26_27_rate": "642"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "436",
+                "ay26_27_rate": "472"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Communal Block & Block 69A, Level 2 (above Function   Hall 15)",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Computer Room": {
+                "location": "Communal Block, Level 1 (near Admin Office)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 69 \u2013 72,   Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 69 \u2013 72, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 69 \u2013 72, Levels 3 & 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Communal Block, Level 1 (near function Hall 15)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Outside Canteen 14, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Outside Canteen   14, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Multi-Purpose Hall": {
+                "location": "Communal Block & Block 69A, Level 1 (Function Hall   15)",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            },
+            "Dance Room": {
+                "location": "Communal Block & Block 69A, Level 2 (above Function   Hall 15)",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            },
+            "BBQ Pit": {
+                "location": "Between Communal   Block 65 & Block 65 facing main road, Level 1",
+                "opening_days": "By Booking",
+                "opening_hours": "By Booking"
+            }
+        },
+        "other_amenities_text": "Food Court 14, Carpark",
+        "room_sizes": {
+            "single": "10.5 sqm",
+            "double": "19.25 sqm"
+        },
+        "capacity": "600 beds",
+        "has_lift": "No",
+        "near_canteen": "Tamarind Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-15-signage.png?sfvrsn=4e2f3a82_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-15-hall-officeb7fd7eae-e114-4f43-ba6b-013c1827a84c.png?sfvrsn=4492351f_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-15-single-room.png?sfvrsn=c825a7b1_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-15-double-room.png?sfvrsn=e0dd526e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-15-laundry-room.png?sfvrsn=d3d2cecc_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-15-pantry.png?sfvrsn=ba319e45_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-15-lounge.png?sfvrsn=aad35c3b_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-14-15-multi-purpose-halld89cb398-0a7b-442f-b6d2-309c5c8ef7c6.png?sfvrsn=2fc8f968_1"
+        ],
+        "coords": {
+            "lat": 1.347,
+            "lng": 103.6688
+        },
+        "dist_to_ns": 1333,
+        "dist_to_ss": 1578,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 872,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1578,
+            "NBS (Business School)": 1666,
+            "EEE (Electrical & Electronic Eng)": 1525,
+            "MAE (Mechanical & Aerospace Eng)": 1301,
+            "CEE (Civil & Environmental Eng)": 1357,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1353,
+            "SPMS (Physical & Mathematical Sciences)": 1387,
+            "SBS (Biological Sciences)": 1367,
+            "WKWSCI (Communication & Information)": 1322,
+            "ADM (Art, Design & Media)": 1235,
+            "SOH / SSS (Humanities & Social Sciences)": 1672,
+            "NIE (National Institute of Education)": 872
+        }
+    },
+    {
+        "name": "Hall 16",
+        "slug": "hall-16",
+        "description": "Built in 2005, Hall of Residence 16 was one of the first halls to be equipped with lifts and is conveniently located directly opposite the National Institute of Education and the North Spine Plaza.",
+        "address": "50 Nanyang Walk Singapore 639929",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "603",
+                "ay26_27_rate": "652"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "447",
+                "ay26_27_rate": "483"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Block 16B, Level 2",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Printing Room": {
+                "location": "9am - 11pm",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 16A,   16B, 16C, 16D & 16E, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 16A, 16C, 16D & 16E, Level 4Block 16B, Level 5",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 16A, 16C & 16D, Levels 3 & 5Block 16B, Level 4Block 16E, Level 3",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 16B Level 3",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Hall 3, Communal Block, Level 1 (next to Gym)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Block 16B, Level   1 (next to Drop-off point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            }
+        },
+        "other_amenities_text": "Food Court 16, Lift, Carpark",
+        "room_sizes": {
+            "single": "9.68 sqm",
+            "double": "17.18 sqm"
+        },
+        "capacity": "533 beds",
+        "has_lift": "Yes",
+        "near_canteen": "Food Court 13 / 16",
+        "bus_stop": "Hall 3 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-building.png?sfvrsn=92dce164_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-building-v2.png?sfvrsn=1df94ca6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-3-16-hall-officedf273c1b-0138-4f1b-b783-b2350b668b29.png?sfvrsn=93ed4464_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-single-room.png?sfvrsn=98756796_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-double-room.png?sfvrsn=864bc447_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-reading-room.png?sfvrsn=a21b134_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-pantry.png?sfvrsn=455ea572_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-laundry-room.png?sfvrsn=69458ec7_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/hall-16-lounge.png?sfvrsn=98c4bf38_1"
+        ],
+        "coords": {
+            "lat": 1.344,
+            "lng": 103.6865
+        },
+        "dist_to_ns": 716,
+        "dist_to_ss": 492,
+        "closest_school": "SOH / SSS (Humanities & Social Sciences)",
+        "closest_school_dist": 334,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 492,
+            "NBS (Business School)": 437,
+            "EEE (Electrical & Electronic Eng)": 607,
+            "MAE (Mechanical & Aerospace Eng)": 722,
+            "CEE (Civil & Environmental Eng)": 724,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 838,
+            "SPMS (Physical & Mathematical Sciences)": 774,
+            "SBS (Biological Sciences)": 672,
+            "WKWSCI (Communication & Information)": 815,
+            "ADM (Art, Design & Media)": 778,
+            "SOH / SSS (Humanities & Social Sciences)": 334,
+            "NIE (National Institute of Education)": 1219
+        }
+    },
+    {
+        "name": "Crescent Hall",
+        "slug": "crescent-hall",
+        "description": "Built in 2014, CresPion Halls (Crescent and Pioneer Halls) are among the newer halls, and are interconnected to foster community among residents. Their Innovation Garage hosts various hands-on workshops, such as woodworking, bike salvation, and clay crafting, as part of the Residential Education programme.",
+        "address": "150 Nanyang Crescent, Singapore 637122",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "583",
+                "ay26_27_rate": "627"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "428",
+                "ay26_27_rate": "463"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "633",
+                "ay26_27_rate": "682"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "475",
+                "ay26_27_rate": "511"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Block 17A & 17B, Level 1",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 17A   & 17B, Levels 3, 5 & 7Blocks 17C   & 17D, Levels 4 & 6",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 17B, Levels 5 & 7Blocks 17C & 17D, Level 4",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 17A & 17B, Levels 4 & 6Blocks 17C & 17D, Levels 3 & 5",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 17A, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Block 17A, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Block 17B, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Block 17B, Level   2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Pioneer Hall, Block   18B, Level 1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "Pioneer Food Court, Lift, Carpark",
+        "room_sizes": {
+            "single": "8.82 sqm",
+            "double": "18.06 sqm"
+        },
+        "capacity": "659 beds",
+        "has_lift": "Yes",
+        "near_canteen": "Pioneer Food Court",
+        "bus_stop": "Pioneer Hall (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-lake-exterior.png?sfvrsn=c0bb3ec3_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-entrance-signage.png?sfvrsn=5a4afced_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-hall-office.png?sfvrsn=6cadcdb8_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-single-room.png?sfvrsn=92300fff_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-double-room.png?sfvrsn=fc81f173_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-reading-room.png?sfvrsn=87fed92d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-pantry.png?sfvrsn=3782d5ac_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-hall-room.png?sfvrsn=35ee2142_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-gym.png?sfvrsn=445a9020_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-multi-purpose-hall.png?sfvrsn=4546820e_1"
+        ],
+        "coords": {
+            "lat": 1.346,
+            "lng": 103.6675
+        },
+        "dist_to_ns": 1482,
+        "dist_to_ss": 1688,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 1038,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1688,
+            "NBS (Business School)": 1774,
+            "EEE (Electrical & Electronic Eng)": 1624,
+            "MAE (Mechanical & Aerospace Eng)": 1446,
+            "CEE (Civil & Environmental Eng)": 1509,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1436,
+            "SPMS (Physical & Mathematical Sciences)": 1476,
+            "SBS (Biological Sciences)": 1478,
+            "WKWSCI (Communication & Information)": 1413,
+            "ADM (Art, Design & Media)": 1352,
+            "SOH / SSS (Humanities & Social Sciences)": 1795,
+            "NIE (National Institute of Education)": 1038
+        }
+    },
+    {
+        "name": "Pioneer Hall",
+        "slug": "pioneer-hall",
+        "description": "Built in 2014, CresPion Halls (Crescent and Pioneer Halls) are among the newer halls, and are interconnected to foster community among residents. Their Innovation Garage hosts various hands-on workshops, such as woodworking, bike salvation, and clay crafting, as part of the Residential Education programme.",
+        "address": "156 Nanyang Crescent, Singapore 637125",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "583",
+                "ay26_27_rate": "627"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "428",
+                "ay26_27_rate": "463"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "633",
+                "ay26_27_rate": "682"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "475",
+                "ay26_27_rate": "511"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Crescent Hall, Block 17A & 17B, Level 1",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room(with Ironing facilities)": {
+                "location": "Blocks 18A   & 18B, Levels 3, 5 & 7Blocks 18C   & 18D, Levels 4 & 6",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 18A, Levels 5 & 7 Blocks 18C & 18D, Level 3",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Blocks 18A \u2013 18D, Levels 4 & 6",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 18A, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Crescent Hall, Block 17A, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Crescent Hall, Block 17B, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Crescent Hall, Block   17B, Level 2",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Block 18B, Level   1",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            },
+            "Dance Room": {
+                "location": "Block 18B,   Level 1",
+                "opening_days": "8am to 11pm",
+                "opening_hours": ""
+            },
+            "Function Hall": {
+                "location": "Block 18B, Level   1",
+                "opening_days": "8am to 11pm",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "Pioneer Food Court, Lift, Carpark",
+        "room_sizes": {
+            "single": "8.82 sqm",
+            "double": "18.06 sqm"
+        },
+        "capacity": "591 beds",
+        "has_lift": "Yes",
+        "near_canteen": "Pioneer Food Court",
+        "bus_stop": "Pioneer Hall (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-entrance.png?sfvrsn=a57c58a7_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-entrance-signagec86cff30-e12f-4b82-aeb2-458cdf7d5a0b.png?sfvrsn=fbbc5718_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-hall-office5bf3d11d-df13-4cee-b682-2aa84f2ba335.png?sfvrsn=e889d662_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-single-room3efd77d6-53dd-4898-88a7-1c7145f54b5a.png?sfvrsn=553e8099_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-double-roomfa5414d9-ca16-4bfd-a04b-96ad7f116478.png?sfvrsn=d6945a10_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-reading-room09772579-75e4-425e-97c6-939cb4376dc5.png?sfvrsn=d3036026_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-pantry376bec7d-54f1-4a19-b41a-20b28cc82f04.png?sfvrsn=60c848ed_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-laundry.png?sfvrsn=caac8b62_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-lounge9c4bb1e1-282a-41a8-8a31-20a9d63172d1.png?sfvrsn=98e991bf_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-hall-room3f0a2eda-65eb-4eb4-903b-e197eafc10c0.png?sfvrsn=b0a4de75_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-gym1018b769-d9ce-4bc9-b0b2-d529d32ca760.png?sfvrsn=7904427_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/crespion-multi-purpose-hallef79d74e-be74-4f1d-abba-9eb5a537562e.png?sfvrsn=afeea1bf_1"
+        ],
+        "coords": {
+            "lat": 1.3455,
+            "lng": 103.6678
+        },
+        "dist_to_ns": 1454,
+        "dist_to_ss": 1643,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 1023,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1643,
+            "NBS (Business School)": 1729,
+            "EEE (Electrical & Electronic Eng)": 1577,
+            "MAE (Mechanical & Aerospace Eng)": 1416,
+            "CEE (Civil & Environmental Eng)": 1484,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1385,
+            "SPMS (Physical & Mathematical Sciences)": 1427,
+            "SBS (Biological Sciences)": 1434,
+            "WKWSCI (Communication & Information)": 1364,
+            "ADM (Art, Design & Media)": 1311,
+            "SOH / SSS (Humanities & Social Sciences)": 1755,
+            "NIE (National Institute of Education)": 1023
+        }
+    },
+    {
+        "name": "Binjai Hall",
+        "slug": "binjai-hall",
+        "description": "Built in 2016 as part of North Hill Halls (comprising Binjai Hall, Tanjong Hall and Banyan Hall), Binjai Hall takes its name from the Binjai tree, a large tree of the mango family native to Singapore. It is part of the first large-scale high-rise development in Singapore that utilises the Prefabricated Prefinished Volumetric Construction (PPVC) system. The hall features a sky lounge, the largest gym on campus, and design studios for innovative pursuits.",
+        "address": "62 Nanyang Crescent, Singapore 636958",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "582",
+                "ay26_27_rate": "623"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "426",
+                "ay26_27_rate": "457"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "627",
+                "ay26_27_rate": "673"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "469",
+                "ay26_27_rate": "502"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Block 19A, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Blocks 19A   & 19B, Levels 5, 7, 9, 11 & 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Ironing Room": {
+                "location": "Block 19A, Level 4Block 19A & 19B, Levels 6, 8, 10, 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Blocks 19A & 19B*, Levels 5, 9 & 11\u00a0*Sky Lounge on Block   19B, Level 5",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 19A, Levels 4, 6, 7*, 8, 10, 12 & 13*Block 19B, Levels 6, 8, 10 & 12*Induction cooker only",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 19B, Level 3 (Behind Lift Lobby)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Block 19A, Level 3 (outside Reading Room)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Banyan Hall, Block 21B, Level 3 (next to Mailbox)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Banyan Hall, Block 21B, Level 2 (Drop-off Point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "North Hill Gym (managed by Sports & Recreation Centre)": {
+                "location": "Block 19A, Level 3",
+                "opening_days": "0730h \u2013 2200h",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "8.07 sqm",
+            "double": "17.14 sqm"
+        },
+        "capacity": "629 beds",
+        "has_lift": "Yes",
+        "near_canteen": "North Hill Food Court",
+        "bus_stop": "North Hill / Opp Hall 11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-binjai-exterior.png?sfvrsn=c1c630bd_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-building9d163dda-0e85-4759-9f92-2d1d6bafc973.png?sfvrsn=28757965_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-signage.png?sfvrsn=668b28d5_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-hall-officec373b8d6-5d5b-47ac-92db-2a417eaa2486.png?sfvrsn=8a6b1462_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/binjai-single-room.png?sfvrsn=bbb00197_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/binjai-double-room.png?sfvrsn=7ae4092_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-reading-roomf8ddfa6e-0ec1-478a-9684-9c95c8e30ebd.png?sfvrsn=6be3da36_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/binjai-laundry-room.png?sfvrsn=fbab4e72_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/binjai-lounge.png?sfvrsn=47ed437_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/binjai-rooftop.png?sfvrsn=46c42822_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/northhill-gym-(front-door)b207e374-8fb8-4a07-b9bc-f352e39eeaa2.png?sfvrsn=b0f52146_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-gym-(interior-v3).png?sfvrsn=ad165313_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-food-courtea600173-0b5e-49f2-975c-d9d0be0d6508.png?sfvrsn=6d4e8a2e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/northhill-function-hall0bfcf8ab-3f9c-4582-8a86-ec9d93c7e232.png?sfvrsn=5fe6f26a_1"
+        ],
+        "coords": {
+            "lat": 1.3482,
+            "lng": 103.6828
+        },
+        "dist_to_ns": 259,
+        "dist_to_ss": 625,
+        "closest_school": "CEE (Civil & Environmental Eng)",
+        "closest_school_dist": 214,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 625,
+            "NBS (Business School)": 667,
+            "EEE (Electrical & Electronic Eng)": 726,
+            "MAE (Mechanical & Aerospace Eng)": 317,
+            "CEE (Civil & Environmental Eng)": 214,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 860,
+            "SPMS (Physical & Mathematical Sciences)": 807,
+            "SBS (Biological Sciences)": 611,
+            "WKWSCI (Communication & Information)": 800,
+            "ADM (Art, Design & Media)": 593,
+            "SOH / SSS (Humanities & Social Sciences)": 495,
+            "NIE (National Institute of Education)": 701
+        }
+    },
+    {
+        "name": "Tanjong Hall",
+        "slug": "tanjong-hall",
+        "description": "Built in 2016 as part of North Hill Halls (comprising Binjai Hall, Tanjong Hall and Banyan Hall), Tanjong Hall takes its name from the Tanjong tree, an evergreen fruiting tree native to Singapore. It's part of the first large-scale high-rise development in Singapore that utilises the Prefabricated Prefinished Volumetric Construction (PPVC) system. The hall features a sky lounge, the largest gym on campus, and design studios for innovative pursuits.",
+        "address": "64 Nanyang Crescent, Singapore 636959",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "582",
+                "ay26_27_rate": "623"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "426",
+                "ay26_27_rate": "457"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "627",
+                "ay26_27_rate": "673"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "469",
+                "ay26_27_rate": "502"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Binjai Hall, Block 19A, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Block 20A,   Levels 5, 7, 9, 11 & 13Block 20B, Levels 5, 7, 9, 11 & 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Ironing Room": {
+                "location": "Block 20A, Level 4Block 20A & 20B, Levels 6, 8, 10, 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 20A, Levels 4*, 5, 9 & 11Block 20B, Levels 5, 8 & 11*Sky Lounge",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 20A, Levels 4, 6, 7*, 8, 10, 12 & 13*Block 20B, Levels 6, 8, 10 & 12*Induction cooker only",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 20B, Level 3 (Behind Lift Lobby)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Binjai Hall, Block 19A, Level 3 (outside Reading Room)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Banyan Hall, Block 21B, Level 3 (next to Mailbox)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Banyan Hall, Block 21B, Level 2 (Drop-off Point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "North Hill Gym (managed by Sports & Recreation Centre)": {
+                "location": "Binjai Hall, Block 19A, Level 3",
+                "opening_days": "0730h \u2013 2200h",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "8.07 sqm",
+            "double": "17.14 sqm"
+        },
+        "capacity": "630 beds",
+        "has_lift": "Yes",
+        "near_canteen": "North Hill Food Court",
+        "bus_stop": "North Hill / Opp Hall 11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-hall-facade.png?sfvrsn=9ee3a3e2_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-facade.png?sfvrsn=6b468994_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-signage3301c1c6-6013-4807-89a8-b0a23d8473b2.png?sfvrsn=3793b162_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-hall-office269750ba-cba6-46cf-904f-4c4ef937ac93.png?sfvrsn=203e64c6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-single-room.png?sfvrsn=48050c3c_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-reading-room78faa7be-a5fd-46bf-9e0f-9aff157697f7.png?sfvrsn=333924da_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-reading-room.png?sfvrsn=2df14671_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-pantry.png?sfvrsn=881949b8_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-laundry-room.png?sfvrsn=10e78626_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tanjong-lounge.png?sfvrsn=da14ac04_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/northhill-gym-(front-door)92c4a29f-2ae5-4472-88f8-3d0ee0059244.png?sfvrsn=6633152d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-gym-(interior-v2).png?sfvrsn=45d5da1b_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-food-courtcfe20892-c8af-4401-8568-86749832a8a1.png?sfvrsn=f81585b3_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-function-hall.png?sfvrsn=fd09fbde_1"
+        ],
+        "coords": {
+            "lat": 1.3485,
+            "lng": 103.6832
+        },
+        "dist_to_ns": 314,
+        "dist_to_ss": 663,
+        "closest_school": "CEE (Civil & Environmental Eng)",
+        "closest_school_dist": 268,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 663,
+            "NBS (Business School)": 700,
+            "EEE (Electrical & Electronic Eng)": 768,
+            "MAE (Mechanical & Aerospace Eng)": 373,
+            "CEE (Civil & Environmental Eng)": 268,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 909,
+            "SPMS (Physical & Mathematical Sciences)": 855,
+            "SBS (Biological Sciences)": 661,
+            "WKWSCI (Communication & Information)": 851,
+            "ADM (Art, Design & Media)": 647,
+            "SOH / SSS (Humanities & Social Sciences)": 523,
+            "NIE (National Institute of Education)": 744
+        }
+    },
+    {
+        "name": "Banyan Hall",
+        "slug": "banyan-hall",
+        "description": "Built in 2016 as part of North Hill Halls (comprising Binjai Hall, Tanjong Hall and Banyan Hall), Banyan Hall takes its name from the Banyan tree, which develops unique and distinctive roots. It is part of the first large-scale high-rise development in Singapore that utilises the Prefabricated Prefinished Volumetric Construction (PPVC) system. The hall features a sky lounge, the largest gym on campus, and design studios for innovative pursuits.",
+        "address": "66 Nanyang Crescent, Singapore 636960",
+        "room_amenities_summary": "Common Bathroom | Air-con & Non air-con",
+        "bathroom_type": "Common",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "582",
+                "ay26_27_rate": "623"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "426",
+                "ay26_27_rate": "457"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "627",
+                "ay26_27_rate": "673"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "469",
+                "ay26_27_rate": "502"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room": {
+                "location": "Binjai Hall, Block 19A, Level 3",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am to 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Block 21A,   Levels 5, 7, 9, 11 & 13Block 21B, Levels 5, 7, 9, 11 & 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Ironing Room": {
+                "location": "Block 21A, Level 4Block 21A & 21B, Levels 6, 8, 10, 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 21A, Levels 5, 7, 9 & 11Block 21B, Level 5**Sky Lounge",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 21A, Levels 4, 6, 7*, 8, 10, 12, 13*Block 21B, Levels 4, 6, 8, 10 &   12*Induction cooker only",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block\u00a021B, Level 3 (Behind Lift Lobby)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Binjai Hall, Block 19A, Level 3 (outside Reading Room)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Block 21B, Level 3 (next to Mailbox)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Block 21B, Level 2 (Drop-off Point)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "North Hill Gym (managed by Sports & Recreation Centre)": {
+                "location": "Binjai Hall, Block 19A, Level 3",
+                "opening_days": "0730h \u2013 2200h",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "",
+        "room_sizes": {
+            "single": "8.07 sqm",
+            "double": "17.14 sqm"
+        },
+        "capacity": "630 beds",
+        "has_lift": "Yes",
+        "near_canteen": "North Hill Food Court",
+        "bus_stop": "North Hill / Opp Hall 11 (CB, CR, 179)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-facade.png?sfvrsn=d0d393a2_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/03-north-hill-signage.png?sfvrsn=abd6bb34_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-hall-office.png?sfvrsn=f0449162_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-hall-officea.png?sfvrsn=9218894a_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-single-rooma.png?sfvrsn=a0f243b_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-single-v2.png?sfvrsn=c71e985_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-double-room.png?sfvrsn=c2fb0fb2_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-double-room-v2.png?sfvrsn=e442bf45_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-reading-room.png?sfvrsn=a99a1f3a_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-pantry.png?sfvrsn=31e01c21_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/banyan-laundry-room.png?sfvrsn=b2cf9891_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/northhill-gym-(front-door).png?sfvrsn=783f835f_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-gym-(interior-v4).png?sfvrsn=6449062b_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/north-hill-food-court.png?sfvrsn=405e45fa_5",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/northhill-function-hall.png?sfvrsn=b0a94823_5"
+        ],
+        "coords": {
+            "lat": 1.3488,
+            "lng": 103.6835
+        },
+        "dist_to_ns": 360,
+        "dist_to_ss": 702,
+        "closest_school": "CEE (Civil & Environmental Eng)",
+        "closest_school_dist": 313,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 702,
+            "NBS (Business School)": 735,
+            "EEE (Electrical & Electronic Eng)": 809,
+            "MAE (Mechanical & Aerospace Eng)": 420,
+            "CEE (Civil & Environmental Eng)": 313,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 954,
+            "SPMS (Physical & Mathematical Sciences)": 900,
+            "SBS (Biological Sciences)": 706,
+            "WKWSCI (Communication & Information)": 896,
+            "ADM (Art, Design & Media)": 694,
+            "SOH / SSS (Humanities & Social Sciences)": 555,
+            "NIE (National Institute of Education)": 778
+        }
+    },
+    {
+        "name": "Saraca Hall",
+        "slug": "saraca-hall",
+        "description": "Built in 2017, the Nanyang Crescent Halls (Saraca, Tamarind and Hall of Residence 7) are designed with environmental sustainability in mind and offer a variety of facilities for residents to live, work and play.",
+        "address": "38 Nanyang Crescent, Singapore 636866",
+        "room_amenities_summary": "En-suite Bathroom | Air-con & Non air-con",
+        "bathroom_type": "En-suite",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "590",
+                "ay26_27_rate": "635"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "432",
+                "ay26_27_rate": "466"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "635",
+                "ay26_27_rate": "685"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "475",
+                "ay26_27_rate": "511"
+            },
+            {
+                "room_type": "Single Plus-sized Room (Non Air-con)",
+                "ay25_26_rate": "610",
+                "ay26_27_rate": "660"
+            },
+            {
+                "room_type": "Single Plus-sized Room (Air-con)",
+                "ay25_26_rate": "645",
+                "ay26_27_rate": "695"
+            },
+            {
+                "room_type": "Single En-suite Room (Air-con)",
+                "ay25_26_rate": "785",
+                "ay26_27_rate": "835"
+            },
+            {
+                "room_type": "Single En-suite Room (Non Air-con)",
+                "ay25_26_rate": "705",
+                "ay26_27_rate": "755"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room(*with Printing facilities)": {
+                "location": "Hall 7, Block 25, Level 2, Reading Room 1 Hall 7, Block 25, Level 2, Reading Room 2 Hall 7, Block 25, Level 2, Reading Room 3*",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am \u2013 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Block 22, Levels   4, 6, 8, 10 & 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 22, Levels 6, 7, 12 & 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 22, Levels 3, 5, 7, 9, 11 & 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Block 22 (outside Canteen)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Hall 7, Block 25, Level 2 (outside Reading Room 1)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Block 22, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Block 22, Level   1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Tamarind Hall, Block 23, Level 2",
+                "opening_days": "",
+                "opening_hours": "Refer to Location"
+            }
+        },
+        "other_amenities_text": "Nanyang Crescent Food Court, Lift, Carpark, Shopee Lockers",
+        "room_sizes": {
+            "single": "7.75 sqm",
+            "double": "15.6 sqm"
+        },
+        "capacity": "402 beds",
+        "has_lift": "Yes",
+        "near_canteen": "Nanyang Crescent Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-(interior)17ae2783-e3d3-49d6-b433-ee7b6dac3406.png?sfvrsn=bc0cec4f_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-(front)079b1bf1-539d-41e6-8227-94e49d567ad5.png?sfvrsn=4db94322_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-signageba279032-7271-482f-9e67-dc4a2104467c.png?sfvrsn=27812d05_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-hall-office343fd0e9-3f32-4c9f-bfce-0d2b4abbacc1.png?sfvrsn=ba1ca0c9_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/saraca-single-room.png?sfvrsn=4e505fa6_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/saraca-double-room.png?sfvrsn=325cbe16_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-reading-room4fbd1d9f-4c96-4d91-9c92-c29551a5c200.png?sfvrsn=be549d83_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/saraca-pantry.png?sfvrsn=6f769a48_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/saraca-laundry-room.png?sfvrsn=b08e377c_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/saraca-lounge.png?sfvrsn=98ba99b_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-gym61cf1033-a1ff-429a-9361-46c5007eccbc.png?sfvrsn=e293f60c_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-gym-(view-2)3adec52e-4b6c-4141-9279-287547dc2dfd.png?sfvrsn=f2482111_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-mphd9605b8f-56b8-4254-b0d1-35a0efbe2ec5.png?sfvrsn=58952535_1"
+        ],
+        "coords": {
+            "lat": 1.3478,
+            "lng": 103.6692
+        },
+        "dist_to_ns": 1292,
+        "dist_to_ss": 1566,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 815,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1566,
+            "NBS (Business School)": 1655,
+            "EEE (Electrical & Electronic Eng)": 1521,
+            "MAE (Mechanical & Aerospace Eng)": 1264,
+            "CEE (Civil & Environmental Eng)": 1312,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1359,
+            "SPMS (Physical & Mathematical Sciences)": 1390,
+            "SBS (Biological Sciences)": 1356,
+            "WKWSCI (Communication & Information)": 1325,
+            "ADM (Art, Design & Media)": 1220,
+            "SOH / SSS (Humanities & Social Sciences)": 1650,
+            "NIE (National Institute of Education)": 815
+        }
+    },
+    {
+        "name": "Tamarind Hall",
+        "slug": "tamarind-hall",
+        "description": "Built in 2017, the Nanyang Crescent Halls (Saraca, Tamarind and Hall of Residence 7) are designed with environmental sustainability in mind and offer a variety of facilities for residents to live, work and play.",
+        "address": "38 Nanyang Crescent, Singapore 636866",
+        "room_amenities_summary": "En-suite Bathroom | Air-con & Non air-con",
+        "bathroom_type": "En-suite",
+        "aircon": "Air-con & Non air-con",
+        "renting_rates": [
+            {
+                "room_type": "Single Room (Non Air-con)",
+                "ay25_26_rate": "590",
+                "ay26_27_rate": "635"
+            },
+            {
+                "room_type": "Double Room (Non Air-con)",
+                "ay25_26_rate": "432",
+                "ay26_27_rate": "466"
+            },
+            {
+                "room_type": "Single Room (Air-con)",
+                "ay25_26_rate": "635",
+                "ay26_27_rate": "685"
+            },
+            {
+                "room_type": "Double Room (Air-con)",
+                "ay25_26_rate": "475",
+                "ay26_27_rate": "511"
+            },
+            {
+                "room_type": "Single Plus-sized Room (Non Air-con)",
+                "ay25_26_rate": "610",
+                "ay26_27_rate": "660"
+            },
+            {
+                "room_type": "Single Plus-sized Room (Air-con)",
+                "ay25_26_rate": "645",
+                "ay26_27_rate": "695"
+            },
+            {
+                "room_type": "Single En-suite Room (Air-con)",
+                "ay25_26_rate": "785",
+                "ay26_27_rate": "835"
+            },
+            {
+                "room_type": "Single En-suite Room (Non Air-con)",
+                "ay25_26_rate": "705",
+                "ay26_27_rate": "755"
+            }
+        ],
+        "amenities": {
+            "Study / Reading Room(*with Printing facilities)": {
+                "location": "Hall 7, Block 25, Level 2, Reading Room 1Hall 7, Block 25, Level 2, Reading Room 2Hall 7, Block 25, Level 2, Reading Room 3*",
+                "opening_days": "Semester: DailyVacation: Closed",
+                "opening_hours": "Semester: 10am \u2013 2am*Semester (Extended hours): Refer to HallVacation: Closed\u00a0*Actual opening hours may differ. Please check with Hall directly."
+            },
+            "Laundry Room": {
+                "location": "Block 23, Levels   3, 5, 7, 9, 11 & 13Block 24, Levels 4, 6, 8, 10 & 12",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Lounge": {
+                "location": "Block 23, Levels 6, 7, 11 & 12Block 24, Levels 6, 7, 10 & 11",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Pantry & Kitchenette": {
+                "location": "Block 23, Levels 4, 6, 8, 10 & 12Block 24, Levels 5, 7, 9, 11 & 13",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Mailbox": {
+                "location": "Saraca Hall, Block 22 (outside Canteen)Hall 7, Block 25 (outside Lift Lobby)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Printers": {
+                "location": "Hall 7, Block 25, Level 2 (outside Reading Room 1)",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Parcel Delivery Collection Point": {
+                "location": "Saraca Hall, Block 22, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Food Delivery Collection Point": {
+                "location": "Saraca Hall, Block 22, Level 1",
+                "opening_days": "Daily",
+                "opening_hours": "24 hours"
+            },
+            "Gym": {
+                "location": "Block 23, Level   2",
+                "opening_days": "Refer to Location",
+                "opening_hours": ""
+            }
+        },
+        "other_amenities_text": "Nanyang Crescent Food Court, Lift, Carpark, Shopee Lockers",
+        "room_sizes": {
+            "single": "7.75 sqm",
+            "double": "15.6 sqm"
+        },
+        "capacity": "862 beds",
+        "has_lift": "Yes",
+        "near_canteen": "Nanyang Crescent Food Court",
+        "bus_stop": "Hall 12/13 (CB, CR, 199)",
+        "images": [
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-(front)2c1ae3f0-306e-483a-9444-55814ce33bb2.png?sfvrsn=105035ab_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-(interior)5d6703ae-4db9-457e-b87e-721f9070c731.png?sfvrsn=1bb16cab_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-signagef5dd2356-046f-456c-8e86-a7aee892b2ad.png?sfvrsn=8311b319_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-hall-office9a2e34af-c126-44f2-86c7-7cbe3dcabcc7.png?sfvrsn=b40fc67e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-single-room.png?sfvrsn=84d479dd_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-single-room-(view-2).png?sfvrsn=3683d696_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-single-room-with-toilet.png?sfvrsn=6e38dc18_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-double-room.png?sfvrsn=df508d9e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-laundry-room.png?sfvrsn=337deb9e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-reading-room4a1ae0ef-2426-408a-a4f1-d563a7a410fd.png?sfvrsn=5a3cd0f_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-gym3827184c-c4f3-4fbf-95a7-acd3074bd0ae.png?sfvrsn=5ce150e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-gym-(view-2)bc8365d5-2042-4b95-8576-509667100a07.png?sfvrsn=266c864d_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/nanyang-crescent-mphb79a2554-2413-41e6-9961-6f5098a1ad33.png?sfvrsn=c6aba14e_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-roof-top.png?sfvrsn=3c0a6a28_1",
+            "https://www.ntu.edu.sg/media/images/default-source/a.-(do-not-use-please-use-designated-library)/tamarind-roof-top-(view-2).png?sfvrsn=d5ade398_1"
+        ],
+        "coords": {
+            "lat": 1.3481,
+            "lng": 103.6695
+        },
+        "dist_to_ns": 1262,
+        "dist_to_ss": 1548,
+        "closest_school": "NIE (National Institute of Education)",
+        "closest_school_dist": 779,
+        "all_school_distances": {
+            "CCDS (Computing & Data Science)": 1548,
+            "NBS (Business School)": 1637,
+            "EEE (Electrical & Electronic Eng)": 1506,
+            "MAE (Mechanical & Aerospace Eng)": 1235,
+            "CEE (Civil & Environmental Eng)": 1280,
+            "CCEB (Chemistry, Chemical Eng & Biotech)": 1350,
+            "SPMS (Physical & Mathematical Sciences)": 1378,
+            "SBS (Biological Sciences)": 1338,
+            "WKWSCI (Communication & Information)": 1313,
+            "ADM (Art, Design & Media)": 1201,
+            "SOH / SSS (Humanities & Social Sciences)": 1628,
+            "NIE (National Institute of Education)": 779
+        }
+    }
+]

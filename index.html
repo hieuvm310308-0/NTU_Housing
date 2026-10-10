@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTU Undergraduate Housing Finder & Comparer</title>
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons for premium look -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Modern Blur Glow Effects -->
+        <div class="glow-effect glow-1"></div>
+        <div class="glow-effect glow-2"></div>
+
+        <!-- Sleek Navbar -->
+        <nav class="glass-nav">
+            <div class="nav-brand">
+                <div class="logo-circle">
+                    <i data-lucide="home" class="logo-icon"></i>
+                </div>
+                <span class="brand-text">NTU <span class="gradient-text">Housing Finder</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#explore" class="active">Explore Halls</a>
+                <a href="#explore" id="nav-compare-btn">Comparison Table</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">
+                    <i data-lucide="moon" class="dark-icon"></i>
+                    <i data-lucide="sun" class="light-icon" style="display: none;"></i>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Hero section -->
+        <header class="hero-section">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                <span>AY2026-2027 Housing Directory</span>
+            </div>
+            <h1 class="hero-title">Find Your Perfect <br><span class="gradient-text">NTU Home Away From Home</span></h1>
+            <p class="hero-subtitle">Compare room rates, bathroom types, amenities, and campus locations for all 23 NTU Halls of Residence instantly.</p>
+            
+            <!-- Quick Search Bar -->
+            <div class="search-container glass-container">
+                <div class="search-input-wrapper">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Search by hall name, location, or close-by amenities...">
+                </div>
+                <div class="search-stats">
+                    <span id="halls-count">23</span> Halls Loaded
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="main-workspace" id="explore">
+            <!-- Sidebar Filters -->
+            <aside class="filters-sidebar glass-container">
+                <div class="sidebar-header">
+                    <h2 class="sidebar-title"><i data-lucide="sliders-horizontal"></i> Filters</h2>
+                    <button id="reset-filters" class="reset-btn">Reset All</button>
+                </div>
+
+                <!-- Price Filter (AY26/27) -->
+                <div class="filter-group">
+                    <label class="filter-label">AY26/27 Monthly Budget (S$)</label>
+                    <div class="range-inputs">
+                        <span id="price-min-label">$350</span>
+                        <input type="range" id="price-range" min="380" max="800" value="800" step="10">
+                        <span id="price-max-label" class="bold-val">$800</span>
+                    </div>
+                </div>
+
+                <!-- Room Type Filter -->
+                <div class="filter-group">
+                    <label class="filter-label">Room Configuration</label>
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="room_type" value="single" checked>
+                            <span class="checkmark"></span> Single Rooms
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="room_type" value="double" checked>
+                            <span class="checkmark"></span> Double Rooms
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Aircon Filter -->
+                <div class="filter-group">
+                    <label class="filter-label">Air Conditioning</label>
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="aircon" value="Air-con" checked>
+                            <span class="checkmark"></span> Air-conditioned
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="aircon" value="Non air-con" checked>
+                            <span class="checkmark"></span> Non Air-con
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Bathroom Type Filter -->
+                <div class="filter-group">
+                    <label class="filter-label">Bathroom Configuration</label>
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="bathroom" value="Attached" checked>
+                            <span class="checkmark"></span> Attached Toilet
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="bathroom" value="En-suite" checked>
+                            <span class="checkmark"></span> En-suite Toilet (Shared)
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" name="bathroom" value="Common" checked>
+                            <span class="checkmark"></span> Common Toilet
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Key Amenities Filter -->
+                <div class="filter-group">
+                    <label class="filter-label">Required Amenities</label>
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" id="filter-gym">
+                            <span class="checkmark"></span> In-Hall Gym
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" id="filter-lift">
+                            <span class="checkmark"></span> Lift / Elevator
+                        </label>
+                        <label class="custom-checkbox">
+                            <input type="checkbox" id="filter-pantry">
+                            <span class="checkmark"></span> Pantry / Kitchenette
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Geolocation Filters -->
+                <div class="filter-group">
+                    <label class="filter-label">Distance to Spines</label>
+                    <div class="slider-group">
+                        <div class="slider-header">
+                            <span>Max Dist to North Spine</span>
+                            <span id="dist-ns-val" class="bold-val">Any</span>
+                        </div>
+                        <input type="range" id="dist-ns-range" min="0" max="1500" value="1500" step="50">
+                    </div>
+                    <div class="slider-group">
+                        <div class="slider-header">
+                            <span>Max Dist to South Spine</span>
+                            <span id="dist-ss-val" class="bold-val">Any</span>
+                        </div>
+                        <input type="range" id="dist-ss-range" min="0" max="1500" value="1500" step="50">
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Listing Area -->
+            <section class="listing-area">
+                <!-- Sorting & Top Bar -->
+                <div class="listing-header glass-container">
+                    <div class="active-filters-info">
+                        Showing <span id="displayed-halls-count" class="bold-val">23</span> halls matching criteria
+                    </div>
+                    <div class="sort-selector">
+                        <label for="sort-by">Sort By:</label>
+                        <div class="select-wrapper">
+                            <select id="sort-by">
+                                <option value="name">Name (A-Z)</option>
+                                <option value="price-low">Rent (Low to High)</option>
+                                <option value="price-high">Rent (High to Low)</option>
+                                <option value="ns-dist">Distance to North Spine</option>
+                                <option value="ss-dist">Distance to South Spine</option>
+                                <option value="capacity-high">Capacity (Largest first)</option>
+                            </select>
+                            <i data-lucide="chevron-down" class="select-chevron"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cards Grid -->
+                <div class="halls-grid" id="halls-grid">
+                    <!-- Dynamic Cards will be rendered here by JS -->
+                </div>
+            </section>
+        </main>
+
+        <p id="comparison-status" class="comparison-status" role="status" aria-live="polite"></p>
+
+        <!-- Floating Comparison Drawer -->
+        <div class="comparison-drawer glass-container" id="comparison-drawer">
+            <div class="drawer-header">
+                <h3><i data-lucide="git-compare"></i> Compare Halls</h3>
+                <p>Select up to 3 halls to compare side-by-side</p>
+            </div>
+            <div class="drawer-slots" id="drawer-slots">
+                <!-- Selected slots will go here -->
+            </div>
+            <div class="drawer-actions">
+                <button class="btn-clear-compare" id="clear-compare-btn">Clear</button>
+                <button class="btn-primary btn-compare" id="open-comparison-btn" disabled>Compare Specs <span id="compare-badge">0</span></button>
+            </div>
+        </div>
+
+        <!-- Comparison Modal Table -->
+        <div class="modal-backdrop" id="comparison-modal">
+            <div class="modal-card compare-modal-card glass-container">
+                <button class="modal-close" id="close-compare-btn"><i data-lucide="x"></i></button>
+                <h2 class="modal-title"><i data-lucide="git-compare"></i> Side-by-Side Comparison</h2>
+                <p class="comparison-note">AY26/27 monthly rent in SGD, compared by the same room configuration using the bundled housing dataset. “Not offered” means that configuration is not listed for the hall; “Rate unavailable” means its price is not published in the dataset.</p>
+                
+                <div class="table-responsive">
+                    <table class="comparison-table" id="comparison-table-content">
+                        <!-- Dynamic comparison specs table will go here -->
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hall Detail Modal -->
+        <div class="modal-backdrop" id="detail-modal">
+            <div class="modal-card detail-modal-card glass-container">
+                <button class="modal-close" id="close-detail-btn"><i data-lucide="x"></i></button>
+                
+                <div class="modal-hero-banner" id="detail-hero-banner">
+                    <!-- Dynamic hero banner loaded by JS -->
+                </div>
+
+                <div class="detail-content-wrapper">
+                    <!-- Navigation Tabs -->
+                    <div class="detail-tabs">
+                        <button class="tab-btn active" data-tab="tab-overview"><i data-lucide="info"></i> Overview</button>
+                        <button class="tab-btn" data-tab="tab-rates"><i data-lucide="dollar-sign"></i> Room Rates</button>
+                        <button class="tab-btn" data-tab="tab-amenities"><i data-lucide="award"></i> Amenities</button>
+                        <button class="tab-btn" data-tab="tab-layout"><i data-lucide="map"></i> Room Layout</button>
+                    </div>
+
+                    <!-- Tab Contents -->
+                    <div class="tab-content-container">
+                        <!-- Overview Tab -->
+                        <div class="tab-pane active" id="tab-overview">
+                            <div class="overview-grid">
+                                <div class="overview-desc-side">
+                                    <h3 class="section-heading">About the Hall</h3>
+                                    <p id="detail-desc" class="detail-paragraph"></p>
+                                    
+                                    <div class="quick-facts-grid">
+                                        <div class="fact-card">
+                                            <i data-lucide="users"></i>
+                                            <span class="fact-label">Capacity</span>
+                                            <span class="fact-value" id="detail-capacity">-</span>
+                                        </div>
+                                        <div class="fact-card">
+                                            <i data-lucide="arrow-up-down"></i>
+                                            <span class="fact-label">Lift Available</span>
+                                            <span class="fact-value" id="detail-lift">-</span>
+                                        </div>
+                                        Fact Cards
+                                    </div>
+                                </div>
+                                
+                                <div class="overview-details-side">
+                                    <h3 class="section-heading">Location & Transport</h3>
+                                    <div class="geo-item">
+                                        <i data-lucide="map-pin"></i>
+                                        <div>
+                                            <span class="geo-label">Address</span>
+                                            <span class="geo-val" id="detail-address">-</span>
+                                        </div>
+                                    </div>
+                                    <div class="geo-item">
+                                        <i data-lucide="navigation"></i>
+                                        <div>
+                                            <span class="geo-label">Closest School</span>
+                                            <span class="geo-val" id="detail-school">-</span>
+                                        </div>
+                                    </div>
+                                    <div class="geo-item">
+                                        <i data-lucide="bus"></i>
+                                        <div>
+                                            <span class="geo-label">Near Bus Stop</span>
+                                            <span class="geo-val" id="detail-bus">-</span>
+                                        </div>
+                                    </div>
+                                    <div class="geo-item">
+                                        <i data-lucide="utensils"></i>
+                                        <div>
+                                            <span class="geo-label">Closest Canteen</span>
+                                            <span class="geo-val" id="detail-canteen">-</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Room Rates Tab -->
+                        <div class="tab-pane" id="tab-rates">
+                            <h3 class="section-heading"> AY2025-2026 & AY2026-2027 Monthly Rates</h3>
+                            <p class="tab-subtitle">*Rates are nett and inclusive of utilities, except air-conditioning which is paid separately on a pay-per-use basis.</p>
+                            
+                            <table class="detail-rates-table">
+                                <thead>
+                                    <tr>
+                                        <th>Room Type</th>
+                                        <th>AY2025/26 Rate (S$)</th>
+                                        <th>AY2026/27 Rate (S$)</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="detail-rates-tbody">
+                                    <!-- Dynamic rows loaded by JS -->
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Amenities Tab -->
+                        <div class="tab-pane" id="tab-amenities">
+                            <h3 class="section-heading">Detailed Facilities & Operating Hours</h3>
+                            <div class="amenities-table-wrapper">
+                                <table class="detail-amenities-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Facility</th>
+                                            <th>Location</th>
+                                            <th>Opening Days</th>
+                                            <th>Opening Hours</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="detail-amenities-tbody">
+                                        <!-- Dynamic rows loaded by JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Room Layout Tab -->
+                        <div class="tab-pane" id="tab-layout">
+                            <h3 class="section-heading">Room Configurations & Sizes</h3>
+                            <div class="layout-grid">
+                                <div class="layout-spec">
+                                    <div class="spec-tile">
+                                        <span class="spec-label">Single Room Size</span>
+                                        <span class="spec-val" id="detail-size-single">-</span>
+                                    </div>
+                                    <div class="spec-tile">
+                                        <span class="spec-label">Double Room Size</span>
+                                        <span class="spec-val" id="detail-size-double">-</span>
+                                    </div>
+                                    <div class="spec-tile">
+                                        <span class="spec-label">Bed Mattress Size</span>
+                                        <span class="spec-val">190cm x 90cm (Standard Single)</span>
+                                    </div>
+                                </div>
+                                <div class="layout-image-wrapper">
+                                    <div class="glass-container layout-placeholder-box">
+                                        <i data-lucide="images" class="layout-icon"></i>
+                                        <p>Detailed architectural floor plans and 3D visualizers can be accessed via the NTU Student Intranet.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="app-footer glass-container">
+            <p>© 2026 NTU Housing Finder. Customized by Vu Minh Hieu.</p>
+            <p class="footer-note">Information sourced from NTU Undergraduate Accommodation Portal. Distances calculated based on NTU Campus Grid Coordinates.</p>
+        </footer>
+
+        <!-- Floating AI Chat Assistant -->
+        <div class="ai-assistant-wrapper">
+            <!-- Pulse Toggle Button -->
+            <button id="ai-toggle-btn" class="ai-toggle-btn" aria-label="Open AI Assistant">
+                <span class="ai-pulse-dot"></span>
+                <i data-lucide="message-square-text"></i>
+            </button>
+
+            <!-- Expanded AI Panel -->
+            <div id="ai-chat-panel" class="ai-chat-panel glass-container">
+                <!-- Header -->
+                <div class="ai-chat-header">
+                    <div class="ai-chat-brand">
+                        <div class="ai-avatar">
+                            <i data-lucide="bot"></i>
+                        </div>
+                        <div>
+                            <div class="ai-name">Lyon Housing AI</div>
+                            <div class="ai-status"><span class="status-dot"></span> Online</div>
+                        </div>
+                    </div>
+                    <div class="ai-header-actions">
+                        <button id="ai-expand-btn" title="Toggle Fullscreen"><i data-lucide="maximize-2"></i></button>
+                        <button id="ai-clear-btn" title="Clear Chat History"><i data-lucide="trash-2"></i></button>
+                        <button id="ai-settings-btn" title="AI Settings"><i data-lucide="settings"></i></button>
+                        <button id="ai-close-btn" title="Minimize"><i data-lucide="minus"></i></button>
+                    </div>
+                </div>
+
+                <!-- Settings Overlay (API Key input) -->
+                <div id="ai-settings-overlay" class="ai-settings-overlay">
+                    <h4>Gemini Assistant Settings</h4>
+                    <p class="settings-help">Enter your Gemini API Key and select your preferred model. Settings are saved securely in your browser's localStorage.</p>
+                    
+                    <label class="settings-label" for="gemini-api-key">Gemini API Key</label>
+                    <input type="password" id="gemini-api-key" placeholder="AIzaSy...">
+                    
+                    <label class="settings-label" for="gemini-model-input">AI Model ID</label>
+                    <input type="text" id="gemini-model-input" placeholder="e.g. gemini-3.1-flash-lite">
+                    
+                    <div class="settings-actions">
+                        <button id="save-api-key-btn" class="btn-primary">Save Key</button>
+                        <button id="close-settings-btn" class="btn-clear-compare">Cancel</button>
+                    </div>
+                    <p class="key-help">Don't have a key? <a href="https://aistudio.google.com/" target="_blank">Get one for free at Google AI Studio</a>.</p>
+                </div>
+
+                <!-- Messages Window -->
+                <div class="ai-chat-messages" id="ai-chat-messages">
+                    <div class="ai-message bot">
+                        <p>Hi there! I am <strong>Lyon</strong>, your NTU housing and scholarship assistant. Ask me anything about room rates, bathroom types, distances to schools, or scholarships like the <strong>Nanyang Scholarship</strong> that cover hostel fees!</p>
+                    </div>
+                    <!-- Quick Prompt Suggestions -->
+                    <div class="quick-prompts">
+                        <button class="quick-prompt-btn">Which halls are closest to CCDS and have air-con?</button>
+                        <button class="quick-prompt-btn">Which scholarships cover housing accommodation fees?</button>
+                        <button class="quick-prompt-btn">Compare Hall 1 vs Binjai Hall for budget</button>
+                        <button class="quick-prompt-btn">What is the Nanyang Scholarship accommodation allowance?</button>
+                    </div>
+                </div>
+
+                <!-- Input Footer -->
+                <div class="ai-chat-input-area">
+                    <input type="text" id="ai-input" placeholder="Ask Lyon about housing & scholarships...">
+                    <button id="ai-send-btn" class="btn-primary" aria-label="Send Message"><i data-lucide="send"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
