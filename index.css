@@ -1863,3 +1863,4 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
 
 .official-source-strip,.detail-sources{padding:1rem;margin:1rem 0;background:rgba(100,150,220,.1);border-radius:12px;line-height:1.7}.official-source-strip a,.detail-sources a,#detail-map a{color:var(--accent-color,#3071c9)}#detail-map li{margin:.7rem 0}#detail-map section{margin:1.5rem 0}#detail-layouts img{max-width:100%;height:auto}.detail-sources{font-size:.85rem}.detail-tabs{flex-wrap:wrap}
+#detail-map a.btn-primary{color:#fff;text-decoration:none;display:inline-block;padding:.8rem 1.2rem;width:auto}
