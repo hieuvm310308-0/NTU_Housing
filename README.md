@@ -75,8 +75,6 @@ To refresh or update hall information directly from NTU housing pages:
 
 Customized by **Vu Minh Hieu**, including comparison navigation and room-price improvements. The housing assistant is named **Lyon**.
 
-Based on [KNN-07/NTU_Housing](https://github.com/KNN-07/NTU_Housing).
-
 To publish on GitHub Pages, choose **Settings → Pages → Deploy from a branch**, select **main** and **/(root)**, then save.
 
 Run the comparison checks with `node --test tests/comparison.test.cjs`.
