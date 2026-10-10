@@ -83,3 +83,12 @@ test('rent rows align configurations and distinguish missing rates and rooms', (
     assert.match(app.run('buildComparisonRentRows([{}, {}])'), /Rate unavailable/);
     assert.equal(app.run('escapeComparisonText("<room>")'), '&lt;room&gt;');
 });
+
+test('comparison can switch years without substituting an unpublished Saraca rate', () => {
+    const app = loadApp();
+    app.context.fixtures = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'halls.json'), 'utf8')).filter(h => ['hall-1','saraca-hall'].includes(h.slug));
+    const rows = app.run("buildComparisonRentRows(fixtures, 'ay27_28_rate')");
+    assert.match(rows, /S\$635/);
+    assert.match(rows, /Rate unavailable/);
+    assert.doesNotMatch(rows, /S\$660/);
+});
