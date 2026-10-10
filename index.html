@@ -58,7 +58,7 @@
         </header>
 
         <!-- Main Workspace -->
-        <main class="main-workspace" id="explore">
+        <aside class="official-source-strip">Updated 10 October 2026 · <a href="https://www.ntu.edu.sg/life-at-ntu/accommodation/undergraduate-housing" target="_blank" rel="noopener">Official NTU housing information</a> · <a href="https://maps.ntu.edu.sg/" target="_blank" rel="noopener">NTU Map</a><br>Hall 1 is temporarily at 30 Nanyang Link. Budget filters use AY2026/27; each hall’s Rates tab shows its published years.</aside><main class="main-workspace" id="explore">
             <!-- Sidebar Filters -->
             <aside class="filters-sidebar glass-container">
                 <div class="sidebar-header">
@@ -216,7 +216,7 @@
             <div class="modal-card compare-modal-card glass-container">
                 <button class="modal-close" id="close-compare-btn"><i data-lucide="x"></i></button>
                 <h2 class="modal-title"><i data-lucide="git-compare"></i> Side-by-Side Comparison</h2>
-                <p class="comparison-note">AY26/27 monthly rent in SGD, compared by the same room configuration using the bundled housing dataset. “Not offered” means that configuration is not listed for the hall; “Rate unavailable” means its price is not published in the dataset.</p>
+                <label for="comparison-year">Rate year </label><select id="comparison-year"><option value="ay26_27_rate">AY2026/27</option><option value="ay27_28_rate">AY2027/28</option></select><p class="comparison-note">Monthly rent in SGD, compared by the same room configuration using official NTU rates checked 10 October 2026. Distances are approximate straight-line measurements. “Not offered” means that configuration is not listed for the hall; “Rate unavailable” means its price is not published in the dataset.</p>
                 
                 <div class="table-responsive">
                     <table class="comparison-table" id="comparison-table-content">
@@ -241,7 +241,7 @@
                         <button class="tab-btn active" data-tab="tab-overview"><i data-lucide="info"></i> Overview</button>
                         <button class="tab-btn" data-tab="tab-rates"><i data-lucide="dollar-sign"></i> Room Rates</button>
                         <button class="tab-btn" data-tab="tab-amenities"><i data-lucide="award"></i> Amenities</button>
-                        <button class="tab-btn" data-tab="tab-layout"><i data-lucide="map"></i> Room Layout</button>
+                        <button class="tab-btn" data-tab="tab-map">NTU Map & Nearby</button><button class="tab-btn" data-tab="tab-layout"><i data-lucide="map"></i> Room Layout</button>
                     </div>
 
                     <!-- Tab Contents -->
@@ -251,7 +251,7 @@
                             <div class="overview-grid">
                                 <div class="overview-desc-side">
                                     <h3 class="section-heading">About the Hall</h3>
-                                    <p id="detail-desc" class="detail-paragraph"></p>
+                                    <div id="detail-sources" class="detail-sources"></div><p id="detail-desc" class="detail-paragraph"></p>
                                     
                                     <div class="quick-facts-grid">
                                         <div class="fact-card">
@@ -264,7 +264,7 @@
                                             <span class="fact-label">Lift Available</span>
                                             <span class="fact-value" id="detail-lift">-</span>
                                         </div>
-                                        Fact Cards
+                                       
                                     </div>
                                 </div>
                                 
@@ -303,12 +303,12 @@
                         </div>
 
                         <!-- Room Rates Tab -->
-                        <div class="tab-pane" id="tab-rates">
-                            <h3 class="section-heading"> AY2025-2026 & AY2026-2027 Monthly Rates</h3>
+                        <div class="tab-pane" id="tab-map"><div id="detail-map"></div></div><div class="tab-pane" id="tab-rates">
+                            <h3 class="section-heading"> Official Monthly Room Rates</h3>
                             <p class="tab-subtitle">*Rates are nett and inclusive of utilities, except air-conditioning which is paid separately on a pay-per-use basis.</p>
                             
                             <table class="detail-rates-table">
-                                <thead>
+                                <thead id="detail-rates-head">
                                     <tr>
                                         <th>Room Type</th>
                                         <th>AY2025/26 Rate (S$)</th>
@@ -355,15 +355,11 @@
                                         <span class="spec-val" id="detail-size-double">-</span>
                                     </div>
                                     <div class="spec-tile">
-                                        <span class="spec-label">Bed Mattress Size</span>
-                                        <span class="spec-val">190cm x 90cm (Standard Single)</span>
+                                        <span class="spec-label">Single En-suite Size (if offered)</span><span class="spec-val" id="detail-size-ensuite">-</span></div><div class="spec-tile"><span class="spec-label">Bed Mattress Size</span>
+                                        <span class="spec-val"><span id="detail-mattress">-</span></span>
                                     </div>
                                 </div>
-                                <div class="layout-image-wrapper">
-                                    <div class="glass-container layout-placeholder-box">
-                                        <i data-lucide="images" class="layout-icon"></i>
-                                        <p>Detailed architectural floor plans and 3D visualizers can be accessed via the NTU Student Intranet.</p>
-                                    </div>
+                                <div class="layout-image-wrapper" id="detail-layouts">
                                 </div>
                             </div>
                         </div>
@@ -375,7 +371,7 @@
         <!-- Footer -->
         <footer class="app-footer glass-container">
             <p>© 2026 NTU Housing Finder. Customized by Vu Minh Hieu.</p>
-            <p class="footer-note">Information sourced from NTU Undergraduate Accommodation Portal. Distances calculated based on NTU Campus Grid Coordinates.</p>
+            <p class="footer-note">Hall information checked 10 October 2026 against official NTU housing pages. Map locations from NTU Map; distances are approximate straight-line measurements from reference pins.</p>
         </footer>
 
         <!-- Floating AI Chat Assistant -->

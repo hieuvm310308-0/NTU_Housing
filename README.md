@@ -82,3 +82,11 @@ Run the comparison checks with `node --test tests/comparison.test.cjs`.
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for details.
+
+## Official data refresh
+
+Hall data checked 10 October 2026 against all 23 official NTU undergraduate housing pages. Published year headers are preserved: most show AY2026/27 and AY2027/28; Saraca currently shows AY2025/26 and AY2026/27. Hall 1 uses its temporary 30 Nanyang Link location.
+
+Nearby bus stops, food courts, academic locations and reference pins come from the public MazeMap service embedded by maps.ntu.edu.sg. Distances are approximate straight-line distances from the selected communal/housing block, not walking times or routes. Facilities appearing on the map do not guarantee current opening or bus service. Missing source details are labelled not listed/published.
+
+Refresh: install `requests` and `beautifulsoup4`, run `python fetch_sources.py`, `python fetch_map.py`, then `python scraper.py`. The build fails on missing required source files instead of fabricating data. Cached source files are excluded from Git.

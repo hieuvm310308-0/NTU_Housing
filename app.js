@@ -271,29 +271,17 @@ function applyFiltersAndSort() {
             
         if (!matchQuery) return false;
         
-        // 2. Budget filter (minimum AY2026/27 price must be <= selected max budget)
-        const prices = hall.renting_rates.map(r => parseInt(r.ay26_27_rate)).filter(p => !isNaN(p));
-        const minRate = prices.length ? Math.min(...prices) : Infinity;
-        if (minRate > maxRent) return false;
-        
-        // 3. Room Configurations match (Double or Single availability in rates)
-        const hasSingle = hall.renting_rates.some(r => r.room_type.toLowerCase().includes('single'));
-        const hasDouble = hall.renting_rates.some(r => r.room_type.toLowerCase().includes('double'));
-        
-        const matchRoomType = (selectedRoomTypes.includes('single') && hasSingle) || 
-                              (selectedRoomTypes.includes('double') && hasDouble);
-        if (!matchRoomType) return false;
-        
-        // 4. Aircon matching
-        const isAircon = hall.aircon.includes('Air-con');
-        const isNonAircon = hall.aircon.includes('Non air-con');
-        const matchAircon = (selectedAircon.includes('Air-con') && isAircon) || 
-                            (selectedAircon.includes('Non air-con') && isNonAircon);
-        if (!matchAircon) return false;
-        
-        // 5. Bathroom configurations matching
-        const matchBathroom = selectedBathrooms.includes(hall.bathroom_type);
-        if (!matchBathroom) return false;
+        // Budget, occupancy, cooling and bathroom must match the same room.
+        const matchesRate = hall.renting_rates.some(rate => {
+            const type = rate.room_type.toLowerCase();
+            const price = Number(rate.ay26_27_rate);
+            const occupancy = type.includes('single') ? 'single' : 'double';
+            const cooling = type.includes('non air-con') ? 'Non air-con' : 'Air-con';
+            const bathroom = (type.includes('en-suite') || type.includes('dedicated bathroom')) ? (hall.bathroom_types.includes('Attached') ? 'Attached' : 'En-suite') : 'Common';
+            return Number.isFinite(price) && price > 0 && price <= maxRent &&
+                selectedRoomTypes.includes(occupancy) && selectedAircon.includes(cooling) && selectedBathrooms.includes(bathroom);
+        });
+        if (!matchesRate) return false;
         
         // 6. Amenities matching
         if (reqGym && !hall.amenities['Gym']) return false;
@@ -389,10 +377,10 @@ function renderGrid() {
                             <i data-lucide="bath"></i> ${hall.bathroom_type} Toilet
                         </span>
                         <span class="spec-badge canteen" title="Near Canteen">
-                            <i data-lucide="utensils"></i> ${hall.near_canteen.split(' ')[0]}
+                            <i data-lucide="utensils"></i> ${hall.near_canteen}
                         </span>
                         <span class="spec-badge school" title="Closest School">
-                            <i data-lucide="graduation-cap"></i> ${hall.closest_school.split(' ')[0]} (${hall.closest_school_dist}m)
+                            <i data-lucide="graduation-cap"></i> ${hall.closest_school.match(/\[([^\]]+)\]|\(([^)]+)\)/)?.slice(1).find(Boolean) || hall.closest_school} (${hall.closest_school_dist}m)
                         </span>
                     </div>
                     
@@ -518,7 +506,7 @@ function openComparisonModal() {
     });
     headerRow += `</tr>`;
     
-    const rentRow = buildComparisonRentRows(comparedHalls);
+    const rentRow = buildComparisonRentRows(comparedHalls, document.getElementById('comparison-year').value);
     
     // Bathroom configuration
     let bathRow = `<tr><th>Bathroom Type</th>`;
@@ -537,7 +525,7 @@ function openComparisonModal() {
     // Lift
     let liftRow = `<tr><th>Lift / Elevator</th>`;
     comparedHalls.forEach(hall => {
-        const icon = hall.has_lift === 'Yes' ? 'Yes' : 'No';
+        const icon = hall.has_lift || 'Not listed';
         liftRow += `<td>${icon}</td>`;
     });
     liftRow += `</tr>`;
@@ -545,7 +533,7 @@ function openComparisonModal() {
     // Gym
     let gymRow = `<tr><th>In-Hall Gym</th>`;
     comparedHalls.forEach(hall => {
-        const hasGym = hall.amenities['Gym'] ? 'Yes' : 'No';
+        const hasGym = hall.amenities['Gym'] ? 'Yes' : 'Not listed';
         gymRow += `<td>${hasGym}</td>`;
     });
     gymRow += `</tr>`;
@@ -558,7 +546,7 @@ function openComparisonModal() {
     schoolRow += `</tr>`;
 
     // Spine Distances
-    let spineRow = `<tr><th>Distance to Spines</th>`;
+    let spineRow = `<tr><th>Straight-line Distance to Spines</th>`;
     comparedHalls.forEach(hall => {
         spineRow += `<td>North Spine: ${hall.dist_to_ns}m<br>South Spine: ${hall.dist_to_ss}m</td>`;
     });
@@ -606,7 +594,7 @@ function escapeComparisonText(value) {
 }
 
 // Keep bathroom, room size and aircon variants separate rather than mixing prices.
-function buildComparisonRentRows(halls) {
+function buildComparisonRentRows(halls, year = 'ay26_27_rate') {
     const normalize = roomType => String(roomType).trim().replace(/\s+/g, ' ').toLowerCase();
     const configurations = new Map();
     halls.forEach(hall => (hall.renting_rates || []).forEach(rate => {
@@ -620,7 +608,7 @@ function buildComparisonRentRows(halls) {
         const cells = halls.map(hall => {
             const rate = (hall.renting_rates || []).find(item => normalize(item.room_type) === key);
             if (!rate) return '<td>Not offered</td>';
-            const rawPrice = String(rate.ay26_27_rate ?? '').trim();
+            const rawPrice = String(rate[year] ?? '').trim();
             const price = Number(rawPrice.replace(/,/g, ''));
             if (!rawPrice || !Number.isFinite(price) || price <= 0) return '<td>Rate unavailable</td>';
             return `<td class="highlight-cell">S$${price.toLocaleString('en-SG', { maximumFractionDigits: 2 })}</td>`;
@@ -652,8 +640,15 @@ function openDetailModal(slug) {
     
     // Populate overview info
     document.getElementById('detail-desc').textContent = hall.description;
+    const esc = escapeComparisonText;
+    document.getElementById('detail-sources').innerHTML = `<p>Checked ${esc(hall.checked_on)} · <a href="${hall.source_url}" target="_blank" rel="noopener">Official NTU hall page</a> · <a href="${hall.map_url}" target="_blank" rel="noopener">Locate on NTU Map</a></p><p><strong>Housing office:</strong> ${esc(hall.contact || 'Not published')}</p><p>${esc(hall.office_hours)}</p><p>${esc(hall.additional_info)}</p>`;
+    document.getElementById('detail-map').innerHTML = `<p>Reference pin: ${esc(hall.map_reference)}. Distances are approximate straight-line measurements, not walking routes. Check NTU Map for directions and current facilities.</p><p><a class="btn-primary" href="${hall.map_url}" target="_blank" rel="noopener">Open official NTU Map</a></p>` +
+        [['Nearby food courts',hall.nearby_food],['Nearby bus stops',hall.nearby_bus_stops],['Nearby academic locations',hall.nearby_schools]].map(([title,items]) => `<section><h3>${title}</h3><ul>${items.map(item => `<li><a href="${item.map_url}" target="_blank" rel="noopener">${esc(item.name)}</a> · approximately ${item.distance_m} m</li>`).join('')}</ul></section>`).join('');
+    document.getElementById('detail-mattress').textContent = hall.mattress_size;
+    document.getElementById('detail-size-ensuite').textContent = hall.room_sizes.single_ensuite;
+    document.getElementById('detail-layouts').innerHTML = hall.room_layouts.map(item => `<a href="${item.url}" target="_blank" rel="noopener"><img src="${item.url}" alt="${esc(item.label)}" loading="lazy"></a>`).join('') || 'No layout published. See the official hall page.';
     document.getElementById('detail-capacity').textContent = hall.capacity || 'Not specified';
-    document.getElementById('detail-lift').textContent = hall.has_lift === 'Yes' ? 'Yes' : 'No';
+    document.getElementById('detail-lift').textContent = hall.has_lift || 'Not listed';
     document.getElementById('detail-address').textContent = hall.address;
     document.getElementById('detail-school').textContent = `${hall.closest_school} (${hall.closest_school_dist}m)`;
     document.getElementById('detail-bus').textContent = hall.bus_stop;
@@ -661,13 +656,9 @@ function openDetailModal(slug) {
     
     // Populate rates table
     const ratesTbody = document.getElementById('detail-rates-tbody');
-    ratesTbody.innerHTML = hall.renting_rates.map(r => `
-        <tr>
-            <td class="highlight-cell">${r.room_type}</td>
-            <td>$${r.ay25_26_rate || '-'}</td>
-            <td class="bold-val">$${r.ay26_27_rate || '-'}</td>
-        </tr>
-    `).join('');
+    const yearLabel = key => 'AY20' + key.slice(2,4) + '/' + key.slice(5,7);
+    document.getElementById('detail-rates-head').innerHTML = `<tr><th>Room Type</th>${hall.rate_years.map(year => `<th>${yearLabel(year)} (S$/month)</th>`).join('')}</tr>`;
+    ratesTbody.innerHTML = hall.renting_rates.map(r => `<tr><td class="highlight-cell">${escapeComparisonText(r.room_type)}</td>${hall.rate_years.map(year => `<td>${r[year] ? 'S$'+escapeComparisonText(r[year]) : 'Not published'}</td>`).join('')}</tr>`).join('');
     
     // Populate detailed amenities table
     const amenitiesTbody = document.getElementById('detail-amenities-tbody');
@@ -677,9 +668,9 @@ function openDetailModal(slug) {
         return `
             <tr>
                 <td class="highlight-cell">${k}</td>
-                <td>${item.location || 'Within Hall Campus'}</td>
-                <td>${item.opening_days || 'Daily'}</td>
-                <td>${item.opening_hours || '24 Hours'}</td>
+                <td>${item.location || 'Not published'}</td>
+                <td>${item.opening_days || 'Not published'}</td>
+                <td>${item.opening_hours || 'Not published'}</td>
             </tr>
         `;
     }).join('');
@@ -1058,7 +1049,7 @@ function generateSystemPrompt() {
             dist_ns: `${h.dist_to_ns}m`,
             dist_ss: `${h.dist_to_ss}m`,
             canteen: h.near_canteen,
-            bus: h.bus_stop
+            bus: h.bus_stop, address: h.address, notes: h.description, source: h.source_url, map: h.map_url, rates_by_year: h.renting_rates
         };
     });
 
@@ -1106,9 +1097,10 @@ An academic year is normally counted as 10 months of residence (August to May).
 - Use Markdown Tables whenever users ask to compare multiple halls or rates. E.g.
   | Hall | Room Type | Monthly Rate | Closest School |
   | --- | --- | --- | --- |
-  | Hall 1 | Double En-suite | $412 | SPMS |
+  | Hall 1 | Double Room (Non Air-con) | $412 | Refer to current dataset |
 - If the student is asking about transport or nearest school, refer precisely to the dataset's 'bus', 'canteen', 'closest_school', and 'dist_ns' / 'dist_ss' attributes.
 - If asked about non-NTU housing or unrelated topics, politely direct them back to NTU accommodation or scholarship programs.
+- Distances are approximate straight-line distances from the official map reference pin, not walking routes. Hall 1 is temporarily at 30 Nanyang Link. Missing rates or amenities mean not published. Use the year requested; do not assume Saraca has 2027/28 rates.
 - NEVER invent information not present in the dataset or scholarship rules above.
 - Wrap all responses in beautifully formatted clean markdown text.`;
 }
@@ -1319,3 +1311,5 @@ function restoreWelcomeMessage() {
         });
     });
 }
+
+document.getElementById('comparison-year').addEventListener('change', () => { if (comparedHalls.length >= 2) openComparisonModal(); });
